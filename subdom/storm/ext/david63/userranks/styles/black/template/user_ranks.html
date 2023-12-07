@@ -1,0 +1,43 @@
+<!-- INCLUDE overall_header.html -->
+
+<a id="maincontent"></a>
+
+<h2>{L_USER_RANKS}</h2>
+<br />
+
+<div class="forumbg forumbg-table">
+	<div class="inner">
+
+		<table class="table1" id="zebra-table">
+			<thead>
+
+				<tr>
+					<th style="text-align: center;">{L_RANK_IMAGE}</th>
+					<th style="text-align: center;">{L_RANK_TITLE}</th>
+					<th style="text-align: center;">{L_RANK_MINIMUM}</th>
+					<!-- IF U_USER_RANKS_MEMBERS -->
+						<th style="text-align: center;">{L_RANK_MEMBERS}</th>
+					<!-- ENDIF -->
+				</tr>
+			</thead>
+
+			<tbody>
+
+				<!-- BEGIN ranks -->
+				<tr class="<!-- IF ranks.S_ROW_COUNT is even -->bg1<!-- ELSE -->bg2<!-- ENDIF -->">
+					<td style="text-align: center; vertical-align: middle;"><!-- IF ranks.S_RANK_IMAGE --><img src="{ranks.RANK_IMAGE}" alt="{ranks.RANK_TITLE}" title="{ranks.RANK_TITLE}" /><!-- ELSE -->&nbsp; - &nbsp;<!-- ENDIF --></td>
+					<td style="text-align: center;">{ranks.RANK_TITLE}</td>
+					<td style="text-align: center;"><!-- IF ranks.S_SPECIAL_RANK -->&nbsp; - &nbsp;<!-- ELSE -->{ranks.MIN_POSTS}<!-- ENDIF --></td>
+					<!-- IF U_USER_RANKS_MEMBERS -->
+						<td><!-- BEGIN ranks.rank_member -->
+							{ranks.rank_member.MEMBERS}<!-- IF not ranks.rank_member.S_LAST_ROW -->{L_COMMA_SEPARATOR}<!-- ENDIF -->
+						<!-- END ranks.rank_member --></td>
+					<!-- ENDIF -->
+				</tr>
+				<!-- END ranks -->
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<!-- INCLUDE overall_footer.html -->

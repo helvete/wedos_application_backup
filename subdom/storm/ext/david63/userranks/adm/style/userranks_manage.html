@@ -1,0 +1,65 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_USER_RANKS}</h1>
+<p>{L_USER_RANKS_EXPLAIN}</p>
+
+<form id="userranks" method="post" action="{U_ACTION}">
+
+	<fieldset>
+		<legend>{L_USER_RANKS_OPTIONS}</legend>
+
+		<dl>
+			<dt><label for="userranks_enable">{L_USER_RANKS_ENABLE}{L_COLON}</label><br /><span>{L_USER_RANKS_ENABLE_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_enable" value="1" id="userranks_enable"<!-- IF USER_RANKS_ENABLED --> checked="checked"<!-- ENDIF -->/> {L_ENABLE}</label>
+				<label><input type="radio" class="radio" name="userranks_enable" value="0" <!-- IF not USER_RANKS_ENABLED --> checked="checked"<!-- ENDIF --> /> {L_DISABLE}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_header_link">{L_USER_RANKS_HEADER}{L_COLON}</label></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_header_link" value="1" id="userranks_header_link"<!-- IF USER_RANKS_HEADER --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_header_link" value="0" <!-- IF not USER_RANKS_HEADER --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_members">{L_USER_RANKS_MEMBERS}{L_COLON}</label><br /><span>{L_USER_RANKS_MEMBERS_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_members" value="1" id="userranks_members"<!-- IF USER_RANKS_MEMBERS --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_members" value="0" <!-- IF not USER_RANKS_MEMBERS --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_special">{L_USER_RANKS_SPECIAL}{L_COLON}</label><br /><span>{L_USER_RANKS_SPECIAL_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_special" value="1" id="userranks_special"<!-- IF USER_RANKS_SPECIAL --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_special" value="0" <!-- IF not USER_RANKS_SPECIAL --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_ignore_bots">{L_USER_RANKS_BOTS}{L_COLON}</label><br /><span>{L_USER_RANKS_BOTS_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_ignore_bots" value="1" id="userranks_ignore_bots"<!-- IF USER_RANKS_BOTS --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_ignore_bots" value="0" <!-- IF not USER_RANKS_BOTS --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_members_admin">{L_USER_RANKS_MEMBERS_ADMIN}{L_COLON}</label><br /><span>{L_USER_RANKS_MEMBERS_ADMIN_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_members_admin" value="1" id="userranks_members_admin"<!-- IF USER_RANKS_MEMBERS_ADMIN --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_members_admin" value="0" <!-- IF not USER_RANKS_MEMBERS_ADMIN --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="userranks_special_admin">{L_USER_RANKS_SPECIAL_ADMIN}{L_COLON}</label><br /><span>{L_USER_RANKS_SPECIAL_ADMIN_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="userranks_special_admin" value="1" id="userranks_special_admin"<!-- IF USER_RANKS_SPECIAL_ADMIN --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="userranks_special_admin" value="0" <!-- IF not USER_RANKS_SPECIAL_ADMIN --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+	</fieldset>
+
+	<fieldset>
+		<legend>{L_ACP_SUBMIT_CHANGES}</legend>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->

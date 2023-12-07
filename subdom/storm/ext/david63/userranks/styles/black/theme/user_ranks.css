@@ -1,0 +1,86 @@
+.icon-userrank {
+	@extend %icon-image-gi;
+	&:after {
+		content: '\E329';	// glyphicons-podium
+	}
+}
+
+.userrank .nav-link {
+	@extend %glyph-only;
+	&:after {
+		@extend %glyph-gi;
+		content: '\E329';	// glyphicons-podium
+	}
+	@media (max-width: 550px) {
+		display: none;
+	}
+}
+
+.navbar .nav-tabs .userrank .nav-link {
+	position: relative;
+    padding-left: 30px;
+}
+
+.navbar .nav-tabs .userrank .nav-link:after {
+	position: absolute;
+    left: 12px;
+    top: 50%;
+    margin-top: -7px;
+    width: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 0;
+}
+
+.rtl .navbar .nav-tabs .userrank .nav-link {
+	padding-left: 12px;
+    padding-right: 30px;
+}
+
+.rtl .navbar .nav-tabs .userrank .nav-link:after {
+	left: auto;
+    right: 12px;
+}
+
+.navbar .nav-tabs .userrank .nav-link {
+	text-indent: 999px;
+    width: 14px;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.navbar .nav-tabs .userrank .nav-link:after {
+	text-align: center;
+    font-size: 14px;
+    left: 8px;
+}
+
+.rtl .navbar .nav-tabs .userrank .nav-link:after {
+	left: auto;
+    right: 8px;
+}
+
+.navbar .nav-tabs .userrank .nav-link + strong {
+	right: -2px;
+}
+
+.rtl .navbar .nav-tabs .userrank .nav-link + strong {
+	right: auto;
+	left: -2px;
+}
+
+.navbar .nav-tabs .userrank .nav-link:after {
+	font-family: 'Glyphicons Regular', 'Glyphicons';
+}
+
+.navbar .nav-tabs .userrank .nav-link:after {
+	content: '\E329'; }
+	@media (max-width: 550px) {
+		.navbar .nav-tabs .userrank .nav-link {
+			display: none;
+		}
+	}

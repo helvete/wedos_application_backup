@@ -1,0 +1,85 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_SITE_LOGO}</h1>
+<p>{L_SITE_LOGO_EXPLAIN}</p>
+
+<form id="sitelogo" method="post" action="{U_ACTION}">
+
+	<fieldset>
+		<legend>{L_SITE_LOGO_OPTIONS}</legend>
+
+		<dl>
+			<dt><label for="site_logo_image">{L_SITE_LOGO_IMAGE}{L_COLON}</label><br /><span>{L_SITE_LOGO_IMAGE_EXPLAIN}</span></dt>
+			<dd><input name="site_logo_image" type="text" id="site_logo_image" value="{SITE_LOGO_IMAGE}" maxlength="255" validate="string"/></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_width">{L_SITE_LOGO_WIDTH}{L_COLON}</label><br /><span>{L_SITE_LOGO_WIDTH_EXPLAIN}</span></dt>
+			<dd><input name="site_logo_width" type="text" size="4" id="site_logo_width" value="{SITE_LOGO_WIDTH}" maxlength="4" validate="string"/></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_height">{L_SITE_LOGO_HEIGHT}{L_COLON}</label><br /><span>{L_SITE_LOGO_HEIGHT_EXPLAIN}</span></dt>
+			<dd><input name="site_logo_height" type="text" size="4" id="site_logo_height" value="{SITE_LOGO_HEIGHT}" maxlength="4" validate="string"/></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_pixels">{L_SITE_LOGO_PIXELS}{L_COLON}</label><br /><span>{L_SITE_LOGO_PIXELS_EXPLAIN}</span></dt>
+			<dd><input name="site_logo_pixels" type="number" id="site_logo_pixels" value="{SITE_LOGO_PIXELS}" maxlength="2" size="2" min="0" max="99" /></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_left">{L_SITE_LOGO_LEFT}{L_COLON}</label><br /><span>{L_SITE_LOGO_LEFT_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="site_logo_left" value="1" id="site_logo_left"<!-- IF SITE_LOGO_LEFT --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="site_logo_left" value="0" <!-- IF not SITE_LOGO_LEFT --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_right">{L_SITE_LOGO_RIGHT}{L_COLON}</label><br /><span>{L_SITE_LOGO_RIGHT_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="site_logo_right" value="1" id="site_logo_right"<!-- IF SITE_LOGO_RIGHT --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="site_logo_right" value="0" <!-- IF not SITE_LOGO_RIGHT --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_logo_position">{L_SITE_LOGO_POSITION}{L_COLON}</label></dt>
+			<dd>
+				<!-- BEGIN positions -->
+					<label><input type="radio" class="radio" id="site_logo_position" name="site_logo_position" value="{positions.VALUE}"<!-- IF positions.S_CHECKED --> checked="checked"<!-- ENDIF --> /> {positions.LABEL}</label>
+				<!-- END positions -->
+			</dd>
+		</dl>
+
+		<hr>
+
+		<dl>
+			<dt><label for="site_logo_remove">{L_SITE_LOGO_REMOVE}{L_COLON}</label><br /><span>{L_SITE_LOGO_REMOVE_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="site_logo_remove" value="1" id="site_logo_remove"<!-- IF SITE_LOGO_REMOVE --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="site_logo_remove" value="0" <!-- IF not SITE_LOGO_REMOVE --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_search_remove">{L_SITE_SEARCH_REMOVE}{L_COLON}</label><br /><span>{L_SITE_SEARCH_REMOVE_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="site_search_remove" value="1" id="site_search_remove"<!-- IF SITE_SEARCH_REMOVE --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="site_search_remove" value="0" <!-- IF not SITE_SEARCH_REMOVE --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+		<dl>
+			<dt><label for="site_name_supress">{L_SITE_NAME_SUPRESS}{L_COLON}</label><br /><span>{L_SITE_NAME_SUPRESS_EXPLAIN}</span></dt>
+			<dd><label><input type="radio" class="radio" name="site_name_supress" value="1" id="site_name_supress"<!-- IF SITE_NAME_SUPRESS --> checked="checked"<!-- ENDIF -->/> {L_YES}</label>
+				<label><input type="radio" class="radio" name="site_name_supress" value="0" <!-- IF not SITE_NAME_SUPRESS --> checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+		</dl>
+
+
+	</fieldset>
+
+	<fieldset>
+		<legend>{L_ACP_SUBMIT_CHANGES}</legend>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->

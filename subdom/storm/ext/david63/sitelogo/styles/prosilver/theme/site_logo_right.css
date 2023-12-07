@@ -1,0 +1,16 @@
+#site-description {
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#site-description .logo {
+	float: right;
+	margin-right: 10px
+}
+
+.search-header {
+	float: left;
+	margin-top: -10px;
+	margin-left: 10px;
+}
