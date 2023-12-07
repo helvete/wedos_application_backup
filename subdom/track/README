@@ -1,0 +1,85 @@
+PHP Ticket README
+
+-- Short Intro
+PHP Ticket is in short a ticketing system written in PHP, backed up by a MySQL database. 
+Its purpose is to provide helpdesks/staffs with an easy "todo" application for keeping 
+track of what needs to be done. The interface is kept fairly simple and easy to use.
+
+Having frequented the OpenTicket system used at KTHNOC (Network Operations
+Center at Royal Institute of Technology in Stockholm, Sweden) which is the node at
+which SUNET, NORDUNET and national ISPs connect (PoP), I felt a need to
+list my tasks and troubles at work (being a sysadmin) to keep track of what needs
+to be done and to give other people a chance to read and post tickets.
+KTHNOC OpenTicket available at http://www.noc.kth.se/opentickets/index.html
+
+
+-- Features
++ IMAP support for importing tickets from external email accounts
++ automated installation through install.php
++ user management and login functions using sessions
++ all configuration in interface, no database knowledge needed
++ ability to send notifies by email upon ticket changes
++ printable tickets
++ search capabilities
++ all HTML is using CSS
+
+
+-- Requirements
++ A PHP capable webserver (preferably apache: http://www.apache.org)
++ PHP 4.1 or higher
++ MySQL, 3.x probably works, but 3.23.*/4 is preferred
++ Clients must accept cookies for login info and handle CSS
++ I'm running phpticket on a 486 66mhz/64mb on linux 2.2.x and it's fast
+
+
+-- Installation/Upgrading
++ Move all files to a directory readable by the webserver.
++ Make sure the webserver user has write permissions on 'mysql.inc.php',
+  ("chmod mysql.inc.php 666" probably does it) or the installation will fail. 
++ Point your browser to 'install.php' and follow the instructions
++ Move/delete/change permissions on 'install.php' so it can't be run after installation
++ Change permissions on 'mysql.inc.php' to 644 ("chmod mysql.inc.php 644")
++ Login as admin/admin and change administrator password for security
++ Edit any settings to your liking
+
+
+-- About
+This software is written by Daniel Netz (netz at home dot se) using PHP, Apache
+and MySQL 3.x/4.x on linux. Bug reports and feature requests  are always welcome
+and preferably discussed in the forum (see link below). 
+This software is licensed under the GNU GPL license (see COPYING) and may be used and
+distributed in any way it may suit you as long as it's according to GPL.
+I've kept the interface simple and subtle for a reason, speed and ease of use. 
+
+
+-- IMAP support
+Warning: the IMAP support is EXPERIMENTAL and must be used with precaution.
+Please do NOT use this on a production database/server without proper testing.
+The IMAP support enables users to import tickets from external email accounts,
+protocols supported are IMAP4, POP3, NNTP, optionally over SSL. To enable IMAP
+support, set imap_support to 1 and set the other imap_* settings to an appropriate
+value. The imap_type setting defines the protocol used, these are the supported
+values:
+
+IMAP4:		1
+POP3:		2
+IMAP4_SSL:	3
+POP3_SSL:	4
+
+When imap_support is enabled, administrators can use the "Import IMAP" link in
+the configuration screen to import IMAP emails into the database. This behavior
+is subject of change in later versions.
+
+
+-- Security
+Security is an important issue in phpticket, although I don't have either knowledge
+nor the time to make sure phpticket is safe in all ways, so use it wisely. The most
+common issue is SQL Injections, i.e. strings directly inserted into SQL queries that
+can be altered to do simply anything possible with SQL. However, as far as I can see,
+for a malicious user to insert SQL code he/she has to be able to log in and should
+therefor have some kind of trust.
+
+
+-- Misc
+See official homepage for more info: http://ticket.sourceforge.net
+Personal contact, Daniel Netz: netz "at" home "dot" se
