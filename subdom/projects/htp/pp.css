@@ -1,0 +1,149 @@
+/* CSS Document */
+body 
+{  background-color: #b3b3b3;
+   font-family: sans-serif;
+   font-size:0.8em;
+   color: black;
+   text-align: justify;
+}
+
+a
+{
+      font-weight: bold; 
+}
+
+h1
+{
+  text-align: left;
+  background-color: #566ab1;
+  color: white;  
+  font-family: sans-serif;
+  font-size:1.2em;
+}
+
+h2
+{
+  text-align: center;
+  /*background-color: #566ab1;*/
+  color: #566ab1;  
+  font-family: sans-serif;
+  font-size:1.1em;   
+  padding-left: .5em;  
+  padding-right: .5em;  
+}
+
+h3
+{
+  text-align: center;
+  /*background-color: #566ab1;*/
+  color: black;  
+  font-family: sans-serif;
+  font-size:1.05em;   
+  padding-left: .5em;  
+  padding-right: .5em;  
+}
+
+a:link {
+      color: #566ab1;
+      text-decoration: underline;
+}
+
+a:visited {
+      color: #222222;
+      text-decoration: underline;
+}
+
+a:hover {
+      color: white;
+      text-decoration: underline;
+}
+
+
+a:active {
+      color: #56b16a;
+       text-decoration: underline;
+}  
+.cnt
+{
+  	/*font-size: 70%; */
+  	text-align: center;
+}
+
+.main
+{
+background-color: #b3b3b3;
+vertical-align: top;
+text-align: left;
+border: solid 1px gray;
+margin: 0px;
+padding: 2px;
+width: 100%;
+
+}
+
+.left
+{
+ vertical-align: top; 
+ padding-right: .5em; 
+ /*width: 120px;*/ 
+ height: 800px;
+}
+
+.right
+{
+ vertical-align: top; 
+ border-left : solid 9px #566ab1;  
+ width: 100%; 
+ height: 1150px;      /* */
+}
+
+.blue
+{
+  background-color: #566ab1;   
+  vertical-align: top;   
+  padding-left: .5em;   
+  
+}
+
+.linktab1
+{
+  /*vertical-align: top;*/   
+  border: solid 1px gray;
+  width: 148px;
+  height: 111px; 
+}
+
+.linktab2
+{
+  
+  /*vertical-align: top;*/   
+  border: solid 1px gray;  
+  text-align: center; 
+}
+
+.linkpic
+{
+  border: solid 0px #566ab1;   
+  width: 148px;
+  height: 111px;   
+}
+
+.iframes
+{
+  border: solid 0px black;   
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+}        
+.hw
+{
+  background-color: #56b16a;
+}
+.mob
+{
+  background-color: #b1566a;
+}
+.srvc
+{
+  background-color: #6a56b1
+}

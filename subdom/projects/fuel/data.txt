@@ -1,0 +1,63 @@
+500|46.4|11.03.2013 Tomegas
+475|43.5|15.03.2013 Tomegas
+520|48.6|19.03.2013 Flaga
+520|48.2|28.03.2013 Flaga
+490|44.5|04.04.2013 Kralupol
+495|43.9|10.04.2013 Kralupol
+473|44.5|17.04.2013 Flaga
+493|43|25.04. 2013 Flaga
+518|46.5|02.05.2013 Tomegas
+498|46.2|17.05.2013 Tomegas
+491|46.1|23.05.2013 Tomegas
+137|12.2|24.05.2013 Wagnerova
+466|45.4|27.05.2013 Tomegas
+488|46.2|31.05.2013 Tomegas
+491|46.4|06.06.2013 Tomegas
+494|48.3|12.06.2013 Tomegas
+460|41.8|17.06.2013 Tomegas 
+557|51.7|21.06.2013 Tomegas plna (+ 20L do prazdne z kterych bylo vyjeto cca 65km)
+
+388|39.1|05.07.2013 Kralupol
+240|24.14|07.06.2013 Kralupol
+380|38.7|10.07.2013 Kralupol
+371|39,3|2013-07-15 Kralupol
+426|44.28|2013-07-18 Wagnerova
+334|33,2|2013-07-23 Kralupol
+369|38|2013-07-26 Kralupol
+260|27.34|2013-09-05 Wagnerova
+392|44.7|2013-12-09 Wagnerova
+258|32.17|2014-01-10 Kralupol
+388|42.7|2014-01-15 Kralupol
+360|31.4|2014-01-20 Kralupol (+ Natural cca 65km)
+299|25.3|2014-02-25 Kralupol (+ Natural cca 65km)
+353|32.2|2014-02-28 Kralupol
+399|37.43|2014-03-11 Kralupol
+368|34|2014-03-29 Kralupol
+360|35.67|2014-04-19 Kralupol
+304|28.73|2014-04-30 Kralupol
+306|30.14|2014-05-11 RobinOil Blatna
+303|29.07|2014-06-06 Kralupol
+379|38.4|2014-06-30 Tomegas
+359|35.9|2014-08-07 Wagnerova
+249|24|2014-05-09 Wagnerova
+159|15.1|2014-07-11 Kralupol
+267|24.43|2014-07-13 Kralupol
+387|33.11|2014-08-14 Tomegas
+425|42.2|2014-09-21 Wagnerova
+375|42|2015-01-01
+359|38.5|2015-01-22 Kralupol
+334|36.2|2015-02-05 Kralupol
+300|33.13|2015-02-20 kralupol cb
+387|39.56|2015-03-10 kralupol cb
+397|40.53|2015-04-07 kralupol cb
+395|39.38|2015-04-30 kralupol cb
+301|29.91|2015-05-14 kralupol cb
+430|40.65|2015-06-01 kralupol cb
+273|26.8|2015-06-18 kralupol cb
+352.5|33|2015-06-24 kralupol cb
+426|40.73|2015-07-07 kralupol cb
+358|35.8|2015-08-05 Tomegas Sobeslav
+417|39.5|2015-08-10 Wagnerova
+450|41.77|2015-08-18 Tomegas Sobeslav
+452|44.9|2015-09-13 Wagnerova
+984|88.8|2015-10-09 kralupol cb<br />2015-10-16 kralupol cb<br />2015-10-29 Wagnerova

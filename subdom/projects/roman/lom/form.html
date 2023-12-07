@@ -1,0 +1,94 @@
+<div class="texty">
+Tato sekce slouží jako nezávazný kontaktní formulář. Po jeho vyplnění budou data odeslána na náš email a následně zpracována. Zašleme Vám cenovou nabídku vybraných domén a vše, co potřebujete vědět k využití našich služeb.<br /><br />
+Ceny za <span style="color:silver; font-weight: bold;">pronájem domén</span> jsou od <span style="color: gold; font-weight: bold;">50,-</span>/měs., <span style="color:silver; font-weight: bold;">jednorázový prodej</span> od <span style="color: gold; font-weight: bold;">1.000,-</span>.<br /><br />
+<?php
+    
+if($sent){
+$ndz = 0;
+if($domeny != null){
+  foreach($domeny as $domena) {
+    if($domena != "") $ndz = 10;
+    if($ndz == 10) break;
+  }
+}
+if(strlen($email) > 5) $ndz += 1;
+if($ndz != 11){
+  echo "<br /><br /><span style=\"color: gold;\">Formulář NEbyl odeslán. Buď jste nevybrali domény nebo nezadali (správně) e-mail. Děkujeme za využití našich služeb.</span>";
+}else{
+  $to      = 'info@l1l.cz';  //                                
+  $subject = 'Zadost o cenovou nabidku domen';      
+  $headers = 'From: formular@l1l.cz' . "\r\n" .
+             'Content-type: text/html; charset=utf-8' . "\r\n" .
+             'X-Mailer: PHP/' . phpversion();
+  $message = "<b>nazdar lorde, osoba jmenem: </b>". $jmeno ."\n <br> 
+              <b>dosazitelna na e-mailu: </b>". $email ."\n <br>  
+              <b>nebo telefonnim cisle: </b>". $tel ."\n <br>  
+              <b>za firmu: </b>". $firma ."\n <br> 
+              <b>s webovou prezentací na: </b>". $web ."\n <br> 
+              <b>majici pozadavky: </b>". $pozadavky ."\n <br> 
+              <b>chce vedet cenu za:</b>";
+  if($pronajem && $prodej) $message .= " pronajem i prodej";
+  else{
+    if($pronajem) $message .= " pronajem";
+    if($prodej) $message .= " prodej";
+  }
+  $message .= "<br><b>  domen: </b>" ;
+  foreach($domeny as $domena) {
+  if($domena != "") $message .= $domena.", ";
+  }
+  
+  mail($to, $subject, $message, $headers);
+  echo "<br /><br /><span style=\"color: gold;\">Formulář byl úspěšně odeslán. V nejbližších dnech očekávejte cenovou nabídku. Děkujeme za využití našich služeb.</span>";
+  }
+}else{
+?>
+
+<form method="post">
+<table class="formtab" border="0"><tr><td>
+
+                    <label> Jméno </td><td>
+                    <input type="text" name="jmeno" class="textovej" value="" />
+                    </label></td><td class="right">
+                    <label> E-mail </td><td>
+                    <input type="text" name="email" class="textovej" value="@" />
+                    </label></td></tr><tr><td>
+                    <label> Firma </td><td>
+                    <input type="text" name="firma" class="textovej" value="" />
+                    </label></td><td class="right">
+                    <label> Tel </td><td>
+                    <input type="text" name="tel" class="textovej" value="" />
+                    </label></td></tr><tr><td> 
+                    <label> Web </td><td>
+                    <input type="text" name="web" class="textovej" value="" />
+                    </label></td><td colspan="2"></td></tr><tr><td colspan="2">
+                    <label> ZASLAT CENOVOU NABÍDKU </label>
+                    <label> </td><td class="right" colspan="2"><br />
+                    <input type="checkbox" name="pronajem" />
+                    Pronájem
+                    </label>
+                    <label>
+                    <input type="checkbox" name="prodej" />
+                    Prodej
+                    </label></td></tr><tr><td colspan="2">  
+                    <label> Bližší požadavky</td><td id="linkk" colspan="2">
+                    <a title="seznam domén" href="#" onclick="javascript: nop();"
+                    >zobrazit/skrýt seznam domén</a>
+                    </td></tr>
+                    <tr><td colspan="4">  
+                    <textarea name="pozadavky">Dobrý den,
+mám zájem o bližší informace k vybrané doméně.
+Kontaktujte mne, prosím, na uvedeném e-mailu.</textarea>
+                    </label><br />
+                    <input type="hidden" name="selected" />
+                    <input type="hidden" name="sent" value="true" />
+                    <input type="submit" value="odeslat" id="sub"/>
+                    
+                    </td></tr>
+                    </table>
+                    <div id="doms" class="formtab">
+                    <br />Nabízené domény:<br />
+                    <?php include "vyberdomen.html";?>
+                    </div>
+                    </form> 
+<?php };?>
+</div>

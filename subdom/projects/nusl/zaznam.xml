@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+ <responseDate>2013-04-22T13:46:18Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:3</identifier>
+    <datestamp>2013-04-17T12:18:28Z</datestamp>
+    <setSpec>global</setSpec>
+    <setSpec>opengrey</setSpec>
+    <setSpec>DRIVER</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Rozhodování v počáteční fázi architektonického projektu</dc:title>
+<dc:creator>Moučka, Jan</dc:creator>
+<dc:contributor>Starý, Oldřich</dc:contributor>
+<dc:contributor>Štursa, Jiří</dc:contributor>
+<dc:contributor>Zich, Otakar</dc:contributor>
+<dc:subject>architecture; project planning; architektonické návrhy</dc:subject>
+<dc:description>Předmětem aspirantské práce byla racionalizace rozhodování v počáteční fázi projektování budov a úprav prostředí, tj. od většinou vágního zadání až po návrh disposice budov. Jako metodu racionálního rozhodování problémů zvolil aspirant formální logiku, teorii grafů, využití počítačů. Obsahem disertace jsou i obecně srozumitelné pasáže, s ohledem na obsah vysokoškolské výuky architektů. Hlavními výsledky aspirantury je pojmové zpřesnění, model a metoda řešení problémů slučitelnosti činností ve společném prostředí (místnostech), uspořádání a propojení místností v jednopodlažních budovách (disposiční řešení). Aspirantura probíhala při zaměstnání ve výzkumu výstavby, její výsledky byly podkladem pro úkoly, které aplikovanému výzkumu byly zadávány. Přílohou je grafický výstup výpočtu optimální rozsáhlé disposice z r. 1967, pomocí programu "Rovinný rozvrh", jehož autorem byl Jan Moučka za spolupráce matematiků- programátorů. Školícím místem bylo ČVUT, Fakulta architektury. Školiteli byli prof.ing.arch. Oldřich Starý a univ.prof. Otakar Zich DrSc, vedoucí katedry logiky University Karlovy. Oponentem byl prof.Jiří Štursa.</dc:description>
+<dc:date>1969</dc:date>
+<dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-3</dc:identifier>
+<dc:language>cze</dc:language>
+<dc:format>application/pdf</dc:format>
+<dc:format>image/jpeg</dc:format>
+<dc:rights>Dílo je chráněno podle autorského zákona č. 121/2000 Sb.</dc:rights>
+<dc:rights>Licence Creative Commons Uveďte autora-Nezasahujte do díla 3.0 Česko</dc:rights>
+<dc:rights>This work is protected under the Copyright Act No. 121/2000 Coll.</dc:rights>
+<dc:rights>License: Creative Commons Attribution-NoDerivs 3.0 Czech Republic</dc:rights>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:42Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:10</identifier>
+    <datestamp>2012-10-09T16:07:28Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Vzory pro návrh uživatelského rozhraní</dc:title>
+<dc:creator>Vávra, Jan</dc:creator>
+<dc:contributor>Kašparová, Alena</dc:contributor>
+<dc:contributor>Osvaldová, Jana</dc:contributor>
+<dc:description>Touto prací se chci zaměřit na oblast vzorů pro návrh uživatelského rozhraní. To je soubor vzorů, jenž se snaží pomoci návrhářům desktopových aplikací (respektive internetových stránek) správně sestavit a implementovat uživatelské rozhraní. Cílem bylo vyhledat a přeložit nejzákladnější (a nejvyužívanější) vzory a seskupit je do určitých celků podle oblastí, na které se zaměřují. Vzorům pro návrh uživatelského rozhraní se věnuje zatím jen několik málo subjektů, je tedy poměrně složité najít ucelený soubor, jenž by zahrnoval uspokojivé kvantum těchto vzorů. Každý ze subjektů se navíc věnuje trochu jiným oblastem a přistupuje k popisu řešení problému mírně jiným způsobem. Zájemce o toto téma je tedy schopen najít uspokojivé množství informací, prozatím ale jen za cenu dlouhého vyhledávání a získání výsledků ve větším množství různých forem zápisu. Proto jsem vybral jednu formu zápisu a vzory, které byly zapsány jinak, jsem do této formy převedl. Výsledkem by měl být přehledný a jasně srozumitelný soubor vybraných vzorů ? jenž sice určitě není úplný a vyčerpávající, přesto pokrývá dosti velkou oblast základních existujících vzorů. Každý vzor je v mém podání prezentován ve čtyřech částech, těmi jsou: základním shrnutí vzoru, vhodné podmínky pro jeho implementaci (problém), návrh řešení daného problému a příklady správného (někdy i špatného) použití vzoru. V českém prostředí (speciálně na internetu) je velice obtížné sehnat jakékoliv zdroje či zmínky o vzorech pro návrh uživatelského rozhraní. Tuzemské subjekty se tomuto mladému tématu dostatečně nevěnují, proto jsem shledal prospěšným přeložit základní množství vzorů do českého jazyka a prezentovat je v prostředí internetu pomocí webové stránky, jenž je k této práci připojena jako příloha. Práce samotná sestává z úvodu do problematiky, kde se zaměřuji na vznik vzorů, jejich vývoj, formy a hlavní současné představitele této oblasti. V dalších částech jsou popsány skupiny, do nichž jsem vzory pro návrh seřadil ? pro každou skupinu následuje popis vybraných kompletních vzorů - všechny vzory jsem do bakalářské práce nemohl zařadit - z důvodů jejich velkého množství, ostatní jsou proto přítomny pouze na webové stránce, která je součástí přílohy. Ta je připojena na konci dokumentu spolu s terminologickým slovníkem.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-16</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-10</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:43Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:11</identifier>
+    <datestamp>2012-10-09T16:07:28Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>E-government a jeho vliv na obchodní firmy</dc:title>
+<dc:creator>Pivcová, Petra</dc:creator>
+<dc:contributor>Sedláček, Jiří</dc:contributor>
+<dc:contributor>Sedláček, Jiří</dc:contributor>
+<dc:subject>portál; společnost informační; podpis elektronický; správa veřejná; firma; e-government; ICT; Internet; firma; elektronická veřejná správa; internet</dc:subject>
+<dc:description>Vymezení e-Governmentu, analýza jeho stavu a vývoje v ČR. Portál veřejné správy, Národní program počítačové gramotnosti a rozšiřování broadbandu. Evropská Unie koordinuje pro podporu e Governmentu Akční plány eEurope, iniciativu i2010, program IDABC a program eTEN. Rozbor využívání služeb e-governmentu obchodními firmami: elektronické podatelny, elektronická tržiště pro státní správu, transakční portály veřejné správy. Zaručený elektronický podpis jako nástroj identifikace a autentizace při využívání transakčních služeb, na portálu zdravotních pojišťoven, při elektronickém přiznání daní, elektronickém celním řízení, při on-line obchodování s cennými papíry. Výhody Internetu, intranetu, extranetu, EDI, ebXML, SCM, CRM, teleworkingu, outsourcingu pro firmy; internetový obchod, elektronická tržiště, elektronické bankovnictví, portály na podporu exportu. Výzkumy e-Governmentu: srovnání ČR s ostatními zeměmi EU.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-19</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-11</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:43Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:12</identifier>
+    <datestamp>2012-10-09T16:07:28Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Komparace přílivu PZI do České republiky a na Slovensko</dc:title>
+<dc:creator>Minařík, Petr</dc:creator>
+<dc:contributor>Taušer, Josef</dc:contributor>
+<dc:contributor>Taušer, Josef</dc:contributor>
+<dc:description>Práce se zabývá teoretickými východisky přímých zahraničních investic. Dále jejich složením a přínosy pro hostitelskou ekonomiku. Dále také možné negativní důsledky spojené s PZI.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-21</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-12</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:44Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:13</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Přímé zahraniční investice a vnější ekonomická rovnováha České republiky</dc:title>
+<dc:creator>Stříteský, Jan</dc:creator>
+<dc:contributor>Taušer, Josef</dc:contributor>
+<dc:contributor>Taušer, Josef</dc:contributor>
+<dc:description>Diplomová práce se zabývá efekty přímých zahraničních investic v české ekonomice a zejména jejich vlivem na vnější ekonomickou rovnováhu České republiky. V první části je definován pojem PZI (přímá zahraniční investice), je zde rovněž popsán základní vztah PZI a základních makroekonomických veličin a jak PZI tvarují vnější ekonomickou rovnováhu. Druhá část se zabývá analýzou dynamiky a struktury PZI do české ekonomiky a konečně v třetí stěžejní části práce je analyzován vliv PZI na vnější ekonomickou rovnováhu. Postupně je analyzována platební bilanci, zejména pak projevy PZI v jejích jednotlivých částech. V závěru práce autor zkoumá možnost spojitosti PZI a vyvolání měnové krize.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-21</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-13</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:44Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:14</identifier>
+    <datestamp>2012-09-19T10:57:00Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Hypoteční úvěry v ČR</dc:title>
+<dc:creator>Šíma, Vít</dc:creator>
+<dc:contributor>Stočková, Olga</dc:contributor>
+<dc:contributor>Murtingerová, Kateřina</dc:contributor>
+<dc:description>Práce se zabývá řešením otázky vlastního bydlení v ČR. Prozkoumá možnosti, které se nabízejí ze strany státu ve formě různých přímých či nepřímých podpor, dále se zaměří na charakteristiku hypotečního úvěru a jeho využití, zmíněno je také spousta administrativně-právních postupů. Další část seznamuje s hodnocením klienta pomocí metody úvěrového scoringu s využitím scoringové funkce, individuálního hodnocení a následný posouzením bonity klienta. Poslední kapitola analyzuje s použitím tabulek a grafů český hypotekární trh a hledá nejlepší metodu pro posouzení jednotlivých hypotečních produktů. V závěru jsou srovnávána data týkající se hypotečních trhů všech států Evropské unie.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-22</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-14</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:45Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:15</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Aktuální vývoj na světovém trhu emisemi skleníkových plynů</dc:title>
+<dc:creator>Vlček, Ondřej</dc:creator>
+<dc:contributor>Dostálová, Jiřina</dc:contributor>
+<dc:contributor>Vojáček, Ondřej</dc:contributor>
+<dc:subject>skleníkový efekt; klimatická změna; Kjótský protokol; CO2; emisní obchodování; skleníkový efekt</dc:subject>
+<dc:description>Rostoucí emise skleníkových plynů přispívají k urychlování klimatické změny. Jednotlivé státy k řešení tohoto problému přistupují různými způsoby. Prozatím jediným globálním přístupem je Kjótský protokol. Kjótský protokol navrhuje k řešení klimatické změny využití flexibilních nástrojů - emisního obchodování a projektových mechanismů. Teorie i dosavadní praxe dokládá ekonomickou výhodnost těchto nástrojů. Použití systémů obchodování s emisemi skleníkových plynů se rozšiřuje i v zemích, které neratifikovaly Kjótský protokol. Práce hodnotí mimoevropské povinné systémy emisního obchodování zavedené i plánované.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-23</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-15</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:45Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:16</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Zaměstnanost na českém trhu práce</dc:title>
+<dc:creator>Bradáč, Jiří</dc:creator>
+<dc:contributor>Tomková, Magdalena</dc:contributor>
+<dc:contributor>Kučerová, Jaroslava</dc:contributor>
+<dc:subject>politika zaměstnanosti; OSVČ; Lisabonská strategie; zaměstnanost; zaměstnanost</dc:subject>
+<dc:description>Analýza vývoje zaměstnanosti v ČR od r. 1993, zkoumání zaměstnanosti v různých věkových skupinách. Další charakteristiky zaměstnanosti, samostatná výdělečná činnost. Současná politika zaměstnanosti v ČR a možnosti dalšího zvyšování zaměstnanosti.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-23</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-16</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:46Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:17</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Finanční aspekty podnikání obcí</dc:title>
+<dc:creator>Ctibůrková, Jiřina</dc:creator>
+<dc:contributor>Peková, Jitka</dc:contributor>
+<dc:contributor>Březina, Petr</dc:contributor>
+<dc:subject>rozpočet; vlastnictví obcí; příspěvkové organizace; hospodaření obcí; územní samospráva; rozpočet; příspěvkové organizace; územní samospráva</dc:subject>
+<dc:description>Cílem této práce je přiblížit čtenářům výkon samosprávy na úrovni obcí a zhodnotit podnikání obcí jako způsob jejich efektivnějšího hospodaření s majetkem. První část řeší právní postavení obcí v České republice a jejich funkce v rámci výkonu veřejné správy. Další část se zaměřuje na hospodářskou činnost obce, tedy na hospodaření dle rozpočtu a nakládání s majetkem. Ve třetí části je teoreticky zhodnocen význam a možnost podnikání obcí a organizační formy, kterých může obec při svém hospodaření využívat. Poslední část přináší zhodnocení hospodaření konkrétní obce (Město Rakovník) s důrazem na formy její hospodářské činnosti.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-23</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-17</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:46Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:18</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Ecolabelling - tržně orientovaný nástroj</dc:title>
+<dc:creator>Vyklická, Lucie</dc:creator>
+<dc:contributor>Šauer, Petr</dc:contributor>
+<dc:contributor>Fišerová, Alena</dc:contributor>
+<dc:subject>ekologicky šetrný výrobek; environmentální značení; environmentální politika; politika životního prostředí</dc:subject>
+<dc:description>Seznámení se dvěma systémy environmentálního značení v ČR (Ekologicky šetrné výrobky a Produkty ekologického zemědělství) a jejich vzájemné srovnání. Výsledky průzkumu provedeného mezi spotřebiteli o jejich informovanosti ohledně těchto značení. Několik návrhů vhodných pro větší rozvoj trhu s Ekologicky šetrnými výrobky.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-23</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-18</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+
+
+ <responseDate>2013-04-22T13:58:46Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:19</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Specifika obchodu a podnikání v Katalánsku</dc:title>
+<dc:creator>Rubášová, Ivana</dc:creator>
+<dc:contributor>Sztogrynová, Miroslava</dc:contributor>
+<dc:contributor>Sztogrynová, Miroslava</dc:contributor>
+<dc:description>Práce se zaměřuje na problematiku obchodu a podnikání v Katalánsku. První část se zabývá charakteristikou katalánské ekonomiky a jejím srovnáním se španělskou ekonomikou jako celkem, druhá část pak specifikům, tradicím a zvykům v Katalánsku ovlivňujícím ekonomiku tohoto regionu. Třetí část je věnována problematice nezávislosti Katalánska, včetně legislativní podpory této snahy a čtvrtá část následně kombinuje předešlé poznatky a vyjadřuje jejich uplatnění v obchodním jednání s Katalánci. V závěru je uvedeno celkové shrnutí předchozích informací.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-23</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-19</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:54Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:20</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Koncept flexicurity na českém trhu práce</dc:title>
+<dc:creator>Duda, Václav</dc:creator>
+<dc:contributor>Tomková, Magdalena</dc:contributor>
+<dc:contributor>Lapáček, Michal</dc:contributor>
+<dc:subject>jistota; flexibilita; flexicurity; trh práce; trh práce</dc:subject>
+<dc:description>Tato práce se zabývá Evropskou strategií zaměstnanosti a popisuje koncept Flexicurity. Na příkladech Dánska a Nizozemí ukazuje klady a zápory tohoto konceptu. Dále vysvětluje různé významy slov flexibilita a jistota na trhu práce. Hodnotí rovněž úroveň flexibility a jistoty na českém trhu práce a možnost aplikace Flexicurity v České republice.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-24</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-20</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:21</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Rovné příležitosti a uplatnění sociálně ohrožených na trhu práce</dc:title>
+<dc:creator>Chromá, Marcela</dc:creator>
+<dc:contributor>Macháčková, Jaroslava</dc:contributor>
+<dc:contributor>Jetmar, Marek</dc:contributor>
+<dc:description>Tato diplomová práce se zabývá rovnými příležitostmi na trhu práce. Zkoumá uplatnění sociálně ohrožených skupin na trhu práce, charakterizuje jejich hlavní problémy, trendy a příčiny, které ztěžují těmto skupinám přístup na trh práce. Dále se zaměřuje na právní úpravu rovných příležitostí v Evropské unii a České republice. Závěrečná kapitola se věnuje politice rovných příležitostí na trhu práce v Evropské unii a v České republice. Charakterizuje programy a iniciativy, které prosazují opatření a stanovují strategie směřující ke zlepšení pozic těchto skupina na trhu práce.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-24</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-21</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:22</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Podpora aktivit neziskových organizací ze strany velkých firem</dc:title>
+<dc:creator>Pilná, Lucie</dc:creator>
+<dc:contributor>Macháčková, Jaroslava</dc:contributor>
+<dc:contributor>Fabianek, Jan</dc:contributor>
+<dc:description>Diplomová práce si klade za cíl prokázat roli a důležitost firemního dárcovství ve financování aktivit neziskového sektoru. Firemní filantropie se v posledních letech rozvíjí i v konceptech společenské odpovědnosti firem působících v České republice. Pro neziskové organizace je firemní dárcovství stále podstatnější zdroj financování jejich aktivit. S využitím případových studií čtyř velkých firem působících v České republice se práce zabývá formami firemní podpory, typy podporovaných projektů, kritérii výběru podporovaných projektů a konkrétním financováním ve zvolených firmách.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-24</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-22</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:23</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Vliv vývoje automobilismu a automobilové dopravy na životní prostředí</dc:title>
+<dc:creator>Knorová, Jana</dc:creator>
+<dc:contributor>Dvořák, Antonín</dc:contributor>
+<dc:contributor>Kotíková, Eliška</dc:contributor>
+<dc:subject>emise do ovzduší; externí náklady; technologická řešení</dc:subject>
+<dc:description>Cílem práce je poukázat na negativní vlivy, kterými působí automobilová doprava na životní prostředí a snaha ukázat na možnosti jejich řešení jak technologicky tak pomocí právních úprav a jinými způsoby</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-24</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-23</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:24</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Národní formy podpory podnikání v ČR</dc:title>
+<dc:creator>Petrusek, Tomáš</dc:creator>
+<dc:contributor>Cibulková, Iveta</dc:contributor>
+<dc:subject>investiční pobídky; MSP; PZI; Podpory podnikání</dc:subject>
+<dc:description>Práce shrnuje národní formy podpory podnikání v ČR, tedy podpory hrazené plně z prostředků ČR.Jednotlivé podpory jsou rozděleny dle institucí,které je financují. Práce rozebírá konkrétně jen nejvýznamnější formy podpor, ostatní zmiňuje pouze heslovitě. Samostatná kapitola se věnuje přímým zahraničním investicím a investičním pobídkám jako významnému fenoménu ovlivňujícímu současnou podobu české ekonomiky.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-24</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-24</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:25</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Vstup ČR do EU a pojistný trh v ČR</dc:title>
+<dc:creator>Králová, Lucie</dc:creator>
+<dc:contributor>Dědková, Eva</dc:contributor>
+<dc:contributor>Daňhel, Jaroslav</dc:contributor>
+<dc:subject>Technické rezervy; Pojistné; Ukazatele pojistného trhu; Pojistná legislativa; Směrnice EU; pojistné</dc:subject>
+<dc:description>Práce analyzuje vliv vstupu do ČR do EU na český pojistný trh. V první části je objasněno zavedení legislativních změn týkajích se pojištění a pojišťovnictví, které muselo být provedeno pro soulad českého pojistného práva s právem EU, a jeho dopad na hospodaření pojišťoven. Druhá část je zaměřena na hodnocení vývoje ukazatelů pojistného trhu v souvislosti se vstupem ČR do EU. Třetí část celkově hodnotí dopad vstupu ČR do EU na český pojistný trh a možné směry dalšího vývoje.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-25</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-25</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:26</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Management kvality ve veřejné správě - Model CAF</dc:title>
+<dc:creator>Volný, Jiří</dc:creator>
+<dc:contributor>Mates, Pavel</dc:contributor>
+<dc:contributor>Janoušková, Alena</dc:contributor>
+<dc:subject>Common Assessment Framework; Model CAF; veřejná správa; management kvality; veřejná správa</dc:subject>
+<dc:description>Práce se snaží reagovat na posun ve vnímání fungování veřejné správy. Tím je zejména přechod od nařizovací správy k chápání správy jako službě veřejnosti. Jednou z možností modernizace a zlepšení práce veřejné správy je aplikace metod managementu kvality. V práci se poukazuje na rozdílnost veřejné správy a celého veřejného sektoru oproti soukromému. Ze soukromé sféry jsou zdůrazněny metody, které mohou být aplikovatelné i ve veřejné správě. Větší část práce je pak věnována Modelu CAF (Common Assessment Framework), který byl speciálně navržen pro implementaci ve veřejném sektoru. Pro jeho snazší zavedení jsou uvedeny i upravené praktické příklady ze starších projektů.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-25</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-26</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:27</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Systémy obchodování s emisními právy a jejich možnosti využití ve vodě</dc:title>
+<dc:creator>Lejčková, Olga</dc:creator>
+<dc:contributor>Šauer, Petr</dc:contributor>
+<dc:contributor>Fišerová, Alena</dc:contributor>
+<dc:subject>voda; obchodovatelná práva; ochrana životního prostředí; voda; ochrana životního prostředí</dc:subject>
+<dc:description>Práce diskutuje možnosti zavedení obchodovatelných práv na znečištění povrchové vody v ČR. K formulaci návrhů možného zavedení tohoto systému je využito studia zkušeností v této oblasti ochrany životního prostředí v USA a analýzy současného systému ochrany vody v ČR.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-25</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-27</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:28</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Zdravotní politika v České republice</dc:title>
+<dc:creator>Benešová, Lucie</dc:creator>
+<dc:contributor>Stočková, Olga</dc:contributor>
+<dc:contributor>Mertl, Jan</dc:contributor>
+<dc:subject>výdaje na zdravotnictví; financování zdravotnictví; zdravotnický systém; zdravotnické služby; zdravotní politika; zdravotní péče; zdraví; zdraví</dc:subject>
+<dc:description>Obecná část diplomové práce se zabývá vymezením základních pojmů souvisejících se zdravotnictvím (zdraví a péče o něj, zdravotnické služby, zdravotní politika a zdravotnictví), zdravotnickým systémem a jeho typologií, možnostmi financování a úhrad zdravotní péče. Analytická část je věnována českému systému zdravotnictví, výdajům na zdravotnictví v ČR a možným návrhům na zlepšení situace.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-25</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-28</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:17:57Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:29</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Únosnost municipálního dluhu a možnosti jeho regulace</dc:title>
+<dc:creator>Duková, Naďa</dc:creator>
+<dc:contributor>Peková, Jitka</dc:contributor>
+<dc:contributor>Pilný, Jaroslav</dc:contributor>
+<dc:subject>rozpočtový výhled; analýza dluhové služby; cizí příjmy; vlastní příjmy; rozpočet obce</dc:subject>
+<dc:description>Tato práce je zaměřena na problematiku municipálních rozpočtů. V úvodní části práce je pospán vývoj samosprávy s důrazem na způsob rozpočtování a řešení problémů související s nedostatkem finančních prostředků a vznikem zadluženosti. Další část je věnována podrobné analýze příjmů rozpčtů obcí, zejména možnost obcí ovlivnit jejich výši. Dále je popsána problematika analyzování nutnosti cizích zdrojů financování, která by měla vycházet z dlouhodobého plánu rozvoje obce a také víceletého rozpočtového výhledu. Současně je také nastíněna problematika úlohy státu při regulaci municipální zadluženosti. Popsány jsou nástroje, které k tomu může využít. Nakonec je popsána situace měst a obcí v České republice a srovnávací analýza se zeměmi Evropské unie</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-25</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-29</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:04Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:30</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Přímé zahraniční investice v okrajových oborech</dc:title>
+<dc:creator>Musil, Pavel</dc:creator>
+<dc:contributor>Kalínská, Emílie</dc:contributor>
+<dc:contributor>Laláková, Eva</dc:contributor>
+<dc:subject>vstup zahraničního investora; okrajové obory; střední Evropa; PZI</dc:subject>
+<dc:description>Práce hodnotí přímé zahraniční investice v okrajových oborech v regionu střední a východní Evropy. Část práce je věnována určení okrajových oborů a určení determinant nízkého přílivu investic do vybraných oborů. Následně je na příkladu konkrétní zahraničního investora provedena analýza, která ukazuje, že rozhodování se neliší od jiných investorů, pouze má svá specifikace. Práce se snaží ukázat, že i okrajové obory a PZI, které do nich směřuji, nemusí být výjimkou a naopak jich může přibývat.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-26</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-30</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:04Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:31</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Monitorování chudoby v ČR</dc:title>
+<dc:creator>Rusnaková, Gabriela</dc:creator>
+<dc:contributor>Krebs, Vojtěch</dc:contributor>
+<dc:contributor>Tomková, Magdalena</dc:contributor>
+<dc:subject>zákonodárný proces; životní minimum; hranice chudoby; chudoba; chudoba</dc:subject>
+<dc:description>Práce se zabývá problémem chudoby a jejího monitorování. Zvláštní pozornost je věnována oficiální hranici příjmové chudoby v ČR - životnímu minimu. V nedávné minulosti byla odbornou studií navržena změna konstrukce této hranice, která vyústila ve vládní návrh, který byl předložen ke schválení do Poslanecké sněmovny. Výsledná podoba zákona doznala podstatných změn a cílem bylo, kromě zmapování politické zodpovědnosti za tyto změny zjistit, jaký bude dopad v příjmové oblati na vybrané sociální skupiny obyvatelstva.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-26</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-31</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:05Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:32</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Alternativnáí zdroje v automobilovém průmyslu a jejich analýza</dc:title>
+<dc:creator>Rottová, Simona</dc:creator>
+<dc:contributor>Geuss, Erik</dc:contributor>
+<dc:contributor>Branžovský, Antonín</dc:contributor>
+<dc:subject>emise; ropa; nafta; bioethanol; hybridní automobily; automobilový průmysl; emise; ropa; nafta; automobily</dc:subject>
+<dc:description>Bakalářská práce se zabývá alternativními možnostimi vývoje automobilového průmyslu,k sronává současné možnosti s budoucími, analyzuje jejich dopad na životní prostředí a porovnává jejich efektivitu.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-26</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-32</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:05Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:33</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Exportní příležitosti na trhu Japonska s přihlédnutím ke kulturním a obchodním zvyklostem</dc:title>
+<dc:creator>Konečná, Tereza</dc:creator>
+<dc:contributor>Mertlíková, Františka</dc:contributor>
+<dc:contributor>Mišovská, Soňa</dc:contributor>
+<dc:description>Práce pojednává o příležitostech na trhu Japonska pro české podnikatelské subjekty a přihlíží k obchodním a kulturním specifikám této země. Je rozdělena do pěti kapitol. První kapitola obsahuje stručný přehled vzájemných vztahů ČR a Japonska. Obchodní a ekonomická spolupráce obou zemí a vzájemný obchod je popsán v dalších dvou kapitolách. Stručně je přibližená i vzájemná obchodní bilance a komoditní struktura. Podmínky podnikání v Japonsku, včetně služeb, které může český podnikatel při vstupu na japonský trh využít, obsahuje čtrvtá kapitola. V poslední, páté, kapitole jsem se snažila popsat specifika obchodního jednání s japonskými partnery.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-27</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-33</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:05Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:34</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Výhody vstupu České republiky do Evropské unie</dc:title>
+<dc:creator>Hašek, Miloslav</dc:creator>
+<dc:contributor>Jirges, Tibor</dc:contributor>
+<dc:contributor>Štěňhová, Božena</dc:contributor>
+<dc:description>Bakalářská práce nese název Výhody vstupu České republiky do Evropské unie. Tato práce ovšem není, a vzhledem k šíři problému ani nemůže být, pouhým výčtem pozitivních dopadů vyplývajících z členství České republiky v Evropské unii, ale snaží se zohlednit i negativní dopady spojené se vstupem. Cílem této práce je vnést jistou objektivitu do problematiky hodnocení přínosů a negativních dopadů vstupu České republiky do Evropské unie a poukázat na to, že vše nemusí být pouze černé nebo bílé.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-28</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-34</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:06Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:35</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Obchodní a kulturní zvláštnosti nizozemských obchodních partnerů</dc:title>
+<dc:creator>Papežová, Hana</dc:creator>
+<dc:contributor>Mišovská, Soňa</dc:contributor>
+<dc:contributor>Sztogrynová, Miroslava</dc:contributor>
+<dc:description>Práce charakterizuje kulturu a její pojetí nejprve obecně. Následně jsou popsány jednotlivé kategorie kultury v Nizozemsku a typické vlastnosti nizozemského obyvatelstva. Další kapitola popisuje obchodní jednání, firemní kulturu a etiketu jednání nizozemských obchodních partnerů. V poslední části jsou uvedeny obchodní zvláštnosti, které jsou důležité při vstupu zahraniční firmy na nizozemský trh.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-28</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-35</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:06Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:36</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Úloha ČESMADU BOHEMIA při zajišťování mezinárodní přepravy zboží</dc:title>
+<dc:creator>Chládková, Pavla</dc:creator>
+<dc:contributor>Jelínková, Eva</dc:contributor>
+<dc:contributor>Král, Petr</dc:contributor>
+<dc:description>Cílem práce je zjistit úlohu ČESMADU BOHEMIA při zajišťování mezinárodní přepravy zboží, dále popsat spolupráci ČESMADU BOHEMIA s českou státní správou i se zahraničními organizacemi. V práci jsou analyzovány jednotlivé mezinárodní projekty, na kterých se ČESMAD BOHEMIA aktivně podílí. Dále jsou zde analyzovány odděleně výkonové charakteristiky členů Sdružení a dopravců v ČR celkově. Práce ukazuje, že ČESMAD BOHEMIA hájí zájmy českých dopravců.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-28</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-36</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:06Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:37</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Priame zahraničné investície a ekonomika Ruskej federácie (od polovice 90. rokov do súčasnosti)</dc:title>
+<dc:creator>Pochybová, Viera</dc:creator>
+<dc:contributor>Kalínská, Emílie</dc:contributor>
+<dc:contributor>Podstata, Jan</dc:contributor>
+<dc:subject>Rusko-priame zahraničné investície-ekonomika Ruskej federácie</dc:subject>
+<dc:description>Hoci momentálne sa ekonomická situácia v Rusku vyvíja priaznivo a svojou rozlohou a počtom obyvateľov predstavuje táto krajina obrovský trh s nemalým investičným potenciálom, v porovnaní s ostatnými tranzitívnymi ekonomikami sú toky priamych zahraničných investícií do tejto zeme skromnejšie, najmä po prepočítaní investícií na hlavu a následnom porovnaní s ďalšími tranzitívnymi ekonomikami. Pritom PZI sú pre Rusko nutné k obnove priemyslu a infraštruktúry.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-37</dc:identifier>
+<dc:language>slo</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:06Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:38</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Veletrhy a výstavy jako součást exportní strategie českých firem</dc:title>
+<dc:creator>Vondruška, Jaroslav</dc:creator>
+<dc:contributor>Lukáš, Zdeněk</dc:contributor>
+<dc:contributor>Cibulková, Iveta</dc:contributor>
+<dc:subject>státní podpora účastí na zahraničních veletrzích; exportní strategie; Veletrhy; veletrhy</dc:subject>
+<dc:description>V práci je uvedeno základní členění a obecná problematika veletrhů a výstav. Pozornost je věnována jejich postavení v marketingu a v pronikání na zahraniční trhy. Cílem práce je usnadnit vystavovateli výběr veletrhu, přičemž důraz je kladen na zahraniční akce a jejich rozdělení, s ohledem na vývoj a výzvy českého exportu. Práce rozebírá i podporu pro vystavovatele z prostředků státu a EU.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-38</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:30:07Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:39</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Podpora ochrany životního prostředí z fondů Evropské unie se zaměřením na NUTS 2 Severovýchod</dc:title>
+<dc:creator>Bílková, Kateřina</dc:creator>
+<dc:contributor>Postránecký, Josef</dc:contributor>
+<dc:contributor>Horáček, Jiří</dc:contributor>
+<dc:subject>Operační program Infrastruktura; Iniciativa INTERREG IIIA; strukturální fondy; NUTS 2 Severovýchod; Ochrana životního prostředí; ochrana životního prostředí</dc:subject>
+<dc:description>V práci je charakterizováno, jak je podporována ochrana životního prostředí z fondů Evropské unie (především strukturálních) v rámci NUTS 2 Severovýchod. Hlavním těžištěm je přitom zkoumání podpory v rámci Iniciativy INTERREG IIIA a Operačního programu Infrastruktura. Iniciativa INTERREG IIIA má z hlediska sledovaného regionu značný význam a to z důvodů zlepšení celkové socioekonomické úrovně příhraničních regionů, protože je znevýhodněn svou periferní polohou.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-39</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord
+ <responseDate>2013-04-22T14:37:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:40</identifier>
+    <datestamp>2012-10-09T16:07:29Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Analýza vlivu kurzu české koruny na český export a import</dc:title>
+<dc:creator>Rusá, Kateřina</dc:creator>
+<dc:contributor>Štěňhová, Božena</dc:contributor>
+<dc:contributor>Jirges, Tibor</dc:contributor>
+<dc:description>Úkolem mé bakalářské práce je dokázat či vyvrátit základní tezi o inverzní závislosti exportu a pozitivní závislosti importu na kurzu domácí měny (v přímé kotaci). Rozbor vývoje je proveden jednak verbálně, jednak je provedena analýza v systému Statgraphics. Podle této analýzy byla hypotéza o těchto závislostech vyvrácena. Důvodem je pravděpodobně fakt, že česká koruna svou pevnou pozici na devizovém trhu ještě nenašla a její kurz není ustálený.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-40</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:41</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Výzanm a vývoj směnných relací</dc:title>
+<dc:creator>Tauchenová, Zdeňka</dc:creator>
+<dc:contributor>Taušer, Josef</dc:contributor>
+<dc:contributor>Cibulková, Iveta</dc:contributor>
+<dc:subject>komoditní struktura; teritoriální struktura; metodika čsú; ceny v zahraničním obchodě; směnné relace</dc:subject>
+<dc:description>Práce podává náhled na problematiku zahraničních směnných relací. Teoretická část vysvětluje význam směnných relací a jejich vliv na reálnou ekonomiku. Zabývá se tím, nejen jaké příčiny směnné relace mají,ale i tím, jaké následky přinášejí. Druhá část se věnuje alanýze vývoje směnných relací v zahraničním obchodě. Zejména těžiště práce leží v charakterizování vývoje mezi léty 1997 - 2005.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-41</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:42</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Trh práce a politika zaměstnanosti v okrese Náchod</dc:title>
+<dc:creator>Višňáková, Lenka</dc:creator>
+<dc:contributor>Nezdařilová, Eva</dc:contributor>
+<dc:contributor>Chyťová, Silvie</dc:contributor>
+<dc:description>Diplomová práce se zabývá analýzou trhu práce a politikou zaměstnanosti v okrese Náchod. Je zde definován trh práce a jeho fungování. Následuje charakteristika okresu Náchod a podrobná analýza místního trhu práce (uchazeči o zaměstnání, míra nezaměstnanosti, průměrná mzda, cizinci na trhu práce atd.). Další kapitola se zaměřuje na jednotlivé mikroregiony v okrese a na meziregionální rozdíly. Poslední část je zaměřena na politiku zaměstnanosti a její využívání v tomto okrese.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-29</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-42</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:55Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:43</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Komunální bytová politika a privatizace bytového fondu (na příkladě města Brna)</dc:title>
+<dc:creator>Slavíková, Dagmar</dc:creator>
+<dc:contributor>Toth, Petr</dc:contributor>
+<dc:contributor>Nováček, Jan</dc:contributor>
+<dc:description>Práce hodnotí realizaci komunální bytové politiky města z hlediska nakládání a hospodaření s bytovým fondem. Zaměřuje se zejména na hodnocení průběhu privatizace bytového fondu jak v ČR, tak v městě Brně, a na zhodnocení důsledků privatizace bytového fondu. První kapitola představuje úvod do problematiky, druhá kapitola analyzuje, jaké možnosti hospodaření s bytovým fondem se obcím nabízí, analyzuje možnosti správy bytového fondu a možné způsoby privatizace bytů a domů. Důraz je kladen také na koncepční činnost obcí. Třetí kapitola rozebírá dokumenty upravující bytovou politiku Brna. Čtvrtá kapitola je více analytická, hodnotí správu a hospodaření s bytovým fondem v Brně, průběh privatizace, obsahuje i komplexní zhodnocení bytových politik měst Brna, Prahy, Ostravy, Ústí nad Labem a Plzně na základě bodového ohodnocení vybraných ukazatelů.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-43</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:44</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Využiteľnosť technickej akciovej analýzy pri investičnom rozhodovaní v ČR</dc:title>
+<dc:creator>Štanga, Miloš</dc:creator>
+<dc:contributor>Musílek, Petr</dc:contributor>
+<dc:contributor>Veselá, Jitka</dc:contributor>
+<dc:subject>kalendárne vplyvy; AD-line; index relatívnej sily; momentum; kĺzavé priemery; technická analýza; hybnost</dc:subject>
+<dc:description>Technická analýza má dlhú históriu. Jej opodstatnenosť sa vyvíja tak v čase, ako aj v priestore. Práca simuluje použitie niektorých indikátorov technickej analýzy (kĺzavé priemery, momentum, RSI, AD-line) na českom akciovom trhu a čiastočne na ňom skúma kalendárne vplyvy. Vypovedá o tom, že technická akciová analýza v ČR nie je nadpriemerne zisková. Znamená to, že český akciový trh je minimálne slabo efektívny.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-44</dc:identifier>
+<dc:language>slo</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:45</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>ANALÝZA PŘEDLOŽENÝCH PROJEKTŮ Z MORAVSKOSLEZSKÉHO KRAJE V RÁMCI INICIATIVY INTERREG IIIA</dc:title>
+<dc:creator>Jurečková, Radka</dc:creator>
+<dc:contributor>Wokoun, René</dc:contributor>
+<dc:contributor>Horáček, Jiří</dc:contributor>
+<dc:description>Tato diplomová práce přibližuje, jakým způsobem přistoupila ČR k novým možnostem v přeshraniční spolupráci, které ji EU po přijetí v roce 2004 nabídla a ukazuje, jak byla využita konkrétní podpora EU prostřednictvím Iniciativy Společenství INTERREG IIIA v Moravskoslezském kraji. V souvislosti s tím se práce zabývá vývojem přeshraniční spolupráce, jejími obecnými aspekty a organizačním zajištěním v České republice a Moravskoslezském kraji. Dále se práce zabývá průběhem projektového cyklu, hodnocením projektů a podmínkami, které se vztahují k získání finanční podpory z ERDF. Čtvrtá kapitola obsahuje analýzu schválených projektů v rámci česko-polského a česko-slovenského programu Iniciativy Společenství INTERREG IIIA v Moravskoslezském kraji. Poslední kapitola tyto nabyté poznatky shrnuje a uvádí, jak působení Iniciativy INTERREG IIIA pomohlo lokálnímu rozvoji, obcím, městům a ostatním subjektům v kraji.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-45</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:46</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Príčiny a priebeh úverovej kontrakcie vo vybraných ekonomikách</dc:title>
+<dc:creator>Kaňuková, Ivana</dc:creator>
+<dc:contributor>Málek, Jiří</dc:contributor>
+<dc:contributor>Musílek, Petr</dc:contributor>
+<dc:description>Diplomová práca pojednáva o príčinách úverovej kontrakcie vo vybraných ekonomikách. Sústreďuje sa nielen na makroekonomické aspekty jednotlivých kríz, ale podrobne mapuje i situáciu na mikroekonomickej úrovni jednak na strane bánk, ale i na strane podnikového sektoru.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-46</dc:identifier>
+<dc:language>slo</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:47</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Mezinárodní měnové instituce: Skupina světové banky</dc:title>
+<dc:creator>Šíp, Martin</dc:creator>
+<dc:contributor>Kubišta, Václav</dc:contributor>
+<dc:contributor>Kalínská, Emílie</dc:contributor>
+<dc:subject>Mezinárodní měnové instituce; ICSID; MIGA; IFC; IDA; IBRD; Světová banka</dc:subject>
+<dc:description>Práce se zabývá jednotlivými institucemi Skupiny světové banky, a to jak z hlediska historického, tak i z hlediska jejich rozdílného zaměření a rozdíných programů. Práce dále obsahuje kritický pohled na historické působení Skupiny a její změny v průběhu devadesátých let.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-47</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:48</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Finanční a majetková analýza měst a obcí</dc:title>
+<dc:creator>Baštař, David</dc:creator>
+<dc:contributor>Toth, Petr</dc:contributor>
+<dc:contributor>Halouzka, Petr</dc:contributor>
+<dc:description>Diplomová práce na téma ?Finanční a majetková analýza obcí a měst? popisuje komplexní analytickou metodu, která se zabývá řešením problematiky hospodaření obcí s důrazem na majetek a požadavky k jeho reprodukci. Dále se věnuje předpokladům obecních rozpočtů k zajištění sociálně-ekonomického rozvoje území municipality, sleduje příjmy a výdaje rozpočtu, optimální úroveň zadlužení a další ukazatele týkající se financování. Druhá část práce je zaměřena především na zpracování programové podpory. Je zde navržen postup kompletního zpracování, od fáze sběru informací, přes sumarizaci a centralizaci údajů o obcích v databázi, analýzu vývoje ukazatelů, až po jejich prognózu. V praktické části práce je vysvětleno použití jednotlivých součástí programového zabezpečení finanční a majetkové analýzy. Funkčnost programů je řešena na souboru 90 obcí, jejichž data byla získána v rámci grantového projektu ?Financování obcí? Katedry veřejné správy a regionálního rozvoje. Text je doplněn četnou obrázkovou dokumentací z prostředí programů.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-48</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+
+ <responseDate>2013-04-22T14:37:56Z</responseDate>
+ <request verb="GetRecord">http://invenio.nusl.cz/oai2d/</request>
+ <GetRecord>
+  <record>
+   <header>
+    <identifier>oai:invenio.nusl.cz:49</identifier>
+    <datestamp>2012-10-09T16:07:30Z</datestamp>
+    <setSpec>global</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<dc:title>Finanční a majetková analýza města Berouna</dc:title>
+<dc:creator>Trunečková, Lucie</dc:creator>
+<dc:contributor>Toth, Petr</dc:contributor>
+<dc:contributor>Halouzka, Petr</dc:contributor>
+<dc:description>Předmětem diplomové práce je ?Finanční a majetková analýza města Berouna?. Metoda finanční a majetkové analýzy retrospektivně a prospektivně analyzuje a následně optimalizuje finanční prostředky municipalit v závislosti na jejich majetku, na jeho množství, ceně a očekávaném způsobu využití. Metoda má za úkol zaplnit mezeru, která byla zjištěna při výzkumech. Diplomová práce se skládá ze dvou částí. První část je věnována teoretickým oblastem souvisejícím s metodou FAMA, volbě základních ukazatelů a vhodných metod prognózování. Druhá část se zaměřuje na praktickou část aplikace metody FAMA na příkladu města Berouna.</dc:description>
+<dc:publisher>Vysoká škola ekonomická v Praze</dc:publisher>
+<dc:date>2006-05-30</dc:date>
+<dc:type>info:eu-repo/semantics/masterThesis</dc:type>
+<dc:identifier>http://www.nusl.cz/ntk/nusl-49</dc:identifier>
+<dc:language>cze</dc:language>
+</oai_dc:dc>   </metadata>
+  </record>
+ </GetRecord>
+</OAI-PMH>

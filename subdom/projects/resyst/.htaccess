@@ -1,0 +1,5 @@
+RewriteEngine on
+# Forcing HTTPS
+RewriteCond %{HTTPS} ^off$
+# Pages to Apply
+RewriteRule (.*login) https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]

@@ -1,0 +1,673 @@
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #2a2a2a;
+		font-family: Arial, sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #444444;
+	}
+
+
+	h1, h2
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		color: #333333;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol.no-bullet, ul.no-bullet
+	{
+		padding: 0;
+		list-style: none;
+		font-style: italic;
+	}
+
+	p
+	{
+		line-height: 150%;
+	}
+
+	strong
+	{
+	}
+
+	a
+	{
+		color: #2980b9;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+/*
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+*/
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0 auto;
+		padding: 0;
+		width: 80%;
+		overflow: hidden;
+		list-style: none;
+		text-align: left;
+		color: #6c6c6c
+	}
+
+	ul.style1 li
+	{
+		padding: 1.6em 0em 0em 0em;
+		margin: 0 0 2.5em 0;
+		border-top: 1px solid rgba(0,0,0,.1);
+	}
+
+	ul.style1 li:first-child
+	{
+		border-top: none;
+	}
+
+	ul.style1 p
+	{
+		margin: 0;
+	}
+
+	ul.style1 a
+	{
+		display: block;
+		text-decoration: none;
+		color: #2D2D2D;
+	}
+
+	ul.style1 a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul.style1 h3
+	{
+		padding: 1em 0em 5px 0em;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 400;
+	}
+
+	ul.style1 .first
+	{
+		padding-top: 0;
+		background: none;
+	}
+
+	ul.style1 .date
+	{
+		float: left;
+		position: relative;
+		width: 80px;
+		height: 70px;
+		margin: 0.5em 1.5em 0em 0.5em;
+		padding: 1.5em 0em 1.5em 0em;
+		box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+		font-size: 1em;
+		font-weight: 400;
+		border-right: 1px solid rgba(0,0,0,.1);
+	}
+
+	ul.style1 .date:after
+	{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 6px;
+	}
+
+	ul.style1 .date b
+	{
+		margin: 0;
+		padding: 0;
+		display: block;
+		margin-top: -5px;
+		font-size: 1.8em;
+		font-weight: 700;
+	}
+
+	ul.style1 .date a
+	{
+	}
+
+	ul.style1 .date a:hover
+	{
+		text-decoration: none;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		background: #FFC31F;
+	}
+
+	.button:before
+	{
+		display: inline-block;
+
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+	.box1,
+	.box2,
+	.box3,
+	.box4
+	{
+		width: 24%;
+	}
+
+	.box1,
+	.box2,
+	.box3
+	{
+		float: left;
+		margin-right: 1%;
+	}
+
+	.box4
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 32%;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 1%;
+	}
+
+	.boxC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,
+	.tbox2
+	{
+		width: 49%;
+	}
+
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin: -50px;
+		margin-bottom: 0px;
+		padding: 25px 0 25px 0;
+		background: #85ad0a; /* Old browsers */
+		background: -moz-linear-gradient(top, #85ad0a 0%, #bfd67c 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85ad0a), color-stop(100%,#bfd67c)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #85ad0a 0%,#bfd67c 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #85ad0a 0%,#bfd67c 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #85ad0a 0%,#bfd67c 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #85ad0a 0%,#bfd67c 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ad0a', endColorstr='#bfd67c',GradientType=0 ); /* IE6-9 */
+	}
+
+	.title h2, #featured h2
+	{
+		text-transform: lowercase;
+		font-size: 2.8em;
+	}
+
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 300px;
+		padding: 3em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 4em;
+	}
+
+	#logo h1
+	{
+		display: block;
+	}
+
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	#logo span
+	{
+		padding-right: 0.5em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: rgba(255,255,255,0.3);
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.5);
+	}
+
+	#logo img
+	{
+		display: inline-block;
+		margin-bottom: 1em;
+		border-radius: 50%;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+	}
+
+	#menu ul
+	{
+	}
+
+	#menu li
+	{
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 2em 1.5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+
+	#menu .current a, #menu .active a
+	{
+		background: #2980b9;
+		color: rgba(255,255,255,1);
+	}
+
+	#menu .icon
+	{
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		margin-bottom: 4em;
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		background: #2a2a2a;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		margin: 0 auto;
+		overflow: hidden;
+		max-width: 900px;
+		min-width: 800px;
+		padding: 3em 50px 2em 50px;
+		text-align: center;
+		position: relative;
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #ffffff 0%, #96c75a 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#96c75a)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#96c75a 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffffff 0%,#96c75a 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ffffff 0%,#96c75a 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #ffffff 0%,#96c75a 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#96c75a',GradientType=0 ); /* IE6-9 */
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		overflow: hidden;
+		margin-bottom: 3em;
+		padding-top: 5em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 3em 0 0 0;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: bold;
+		border-top: 1px solid rgba(0,0,0,0.08);
+		clear: both;
+		font-family: Times, serif;
+		color: #013300;
+		text-shadow: #805080 1px 1px 2px;
+	}
+
+	#copyright span
+	{
+		display: block;
+		letter-spacing: 0.20em;
+		line-height: 2.5em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(0,0,0,0.7);
+	}
+
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+	}
+
+
+
+/*********************************************************************************/
+/* Vlastní zápis                                                                 */
+/*********************************************************************************/
+	form input, form textarea {
+		min-width: 300px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+		padding: 10px;
+		display: inline-block;
+	}
+
+	.button, input.submit
+	{
+		color: #dddddd;
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		background: #016900;
+		border: none;
+		border-radius: 2px;
+		min-width: 326px;
+		cursor: pointer;
+	}
+
+	.button:hover, input.submit:hover {
+		color: #ffffff;
+		background: #018900;
+	}
+
+	.button:before, input.submit:before
+	{
+		display: inline-block;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+
+	.title h2, #featured h2 {
+		text-transform: none;
+	}
+
+	.title {
+		text-align: center;
+		margin-left: -180px;
+	}
+	div.label {
+		display: inline-block;
+		width: 326px;
+		font-size: 14px;
+	}
+	div.motto {
+		position: absolute;
+		top: 15px;
+		left: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		text-shadow: #909090 2px 1px;
+	}
+	.title h2 {
+		color: #013300;
+		text-shadow: #555555 3px 2px 3px;
+		font-family: 'Arvo', Times, serif;
+	}
+	.title h2 a, .title h2 a:hover .title h2 a:active .title h2 a:visited {
+		color: #013300;
+		text-decoration: none;
+	}
+	p.introduction {
+		text-align: left;
+		line-height: 150%;
+		padding-left: 180px;
+		margin-bottom: 35px;
+	}
+	div#content {
+		margin-left: -50px;
+		padding-left: 180px;
+		text-align: left;
+		background: url(./images/ene-lvls-02.png) no-repeat scroll 0 130px;
+	}
+	div#contact-form {
+		width: 350px;
+		float: left;
+		text-align: left;
+	}
+	div.other-contact-ways {
+		width: 350px;
+		float: right;
+		text-align: left;
+	}
+	h5 {
+		font-size: 16px;
+		font-style: italic;
+		margin-top: 0;
+	}
+	div.contact {
+		width: 100%;
+		height: 100%;
+	}
+	.red {
+		color: red;
+	}
+	div.sub div {
+		width: 360px;
+		margin-left: 250px;
+		padding: 25px 0;
+		font-style: italic;
+	}
+	h4 {
+		display: inline-block;
+		color: #ffffff;
+		margin-left: -80px;
+		margin-bottom: 10px;
+		font-size: 42px;
+		background-color: #016900;
+		font-variant: small-caps;
+		padding: 9px 7px 7px 7px;
+		width: 100%;
+		text-align: center;
+		text-shadow: #888888 3px 2px 3px;
+		border-radius: 4px;
+	}
+	div.offer-image {
+		background: url(./images/offer-alpha.png) no-repeat scroll 0 0;
+		width: 725px;
+		height: 164px;
+	}
+	.strong {
+		font-weight: bold;
+	}
+	.airy li {
+		margin-bottom: 5px;
+	}
+	h3 {
+		font-family: Times, serif;
+		font-size: 25px;
+		font-variant: small-caps;
+		color: #3f3a98;
+		font-weight: normal;
+		text-shadow: #aaaaaa 3px 2px 3px;
+		margin: 30px -20px 30px -30px;
+	}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+   <head>
+
+	<meta http-equiv="content-type" content="html; charset=windows-1250" />
+	<meta name="author" content="codeall: Martin Peka" />
+	<meta name="copyright" content="Martin Peka" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="czech" />
+	<meta name="country" content="cz" />
+	<meta http-equiv="content-language" content="cs" />
+	<meta http-equiv="cache-control" content="public" />
+	<meta http-equiv="pragma" content="public" />
+
+ 	<title>Zápočtový projekt - poradce pro výběr počítače</title>
+
+   </head>
+
+   <body bgcolor="#ffffff" marginwidth="10" text="#000000" link="#0000ff" vlink="#000099" alink="#00ffff"> 
+    <h2>Popis řešení</h2>
+
+&nbsp;&nbsp;Program nasbírá od uživatele vstupní data (priority ohledně cílového počítače), tedy preferuje-li CPU výkon, GPU výkon, rozlišení displeje, design stroje a má-li se jednat o laptop. data v podobě čísel naplní do seznamu, ze seznamu zpracuje (posčítá) do proměnné, kterou potom rozloží na seznam znaků a vytvoří seznam znaků z předdefinované přípony souboru. Tyto seznamy nakonec spojí do jména souboru, soubor načte a jeho obsah vytiskne do konzole. Nakonec vyžaduje uživatelovu odpověď na zcyklení programu.
+
+<h2>Popis predikátů</h2>
+<h3>Predikáty vestavěné</h3>
+
+is - vyčíslovací predikát <br />
+nl - predikát odřádkování <br />	
+read/1 - predikát načte term z aktuálního vstupu<br />
+write/1 - predikát vypíše text do aktuálního vstupu<br />
+name/2 - predikát převádějící atom na seznam ascii kódů znaků<br />
+
+<h3>Predikáty vlastní</h3>
+
+vytvarnoStart - predikáty vypisující text do konzole<br />
+hvezdy<br />
+servis<br />
+ideal<br />
+odpoved<br /><br />
+
+prenosny/1 - predikáty získávající data od uživatele<br />
+cpuVykon/2 <br />
+gpuVykon/2 <br />
+rozliseni/2 <br />
+design/2 <br /><br />
+
+run - spouštěcí predikát<br />
+parametry - predikát, který volá a spouští celý program<br />
+vypis/1 - predikát vypisuje obsah seznamu<br />
+uvar/2 - predikát sčítá hodnoty prvků v seznamu<br />
+conc/3 - obecný predikát spojující seznamy<br />
+answer/1 - predikát, vypisuje obsah souboru do konzole<br />
+znovu/1 - podmínečný predikát umožňující cyklení programu<br />
+pridej/3 - obecný predikát spojení seznamů<br />
+pridejData/4 - pokud je odpověď ano, zapíše do seznamu data<br />
+    
+   </body>
+</html>

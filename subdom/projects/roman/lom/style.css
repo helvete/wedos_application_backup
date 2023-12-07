@@ -1,0 +1,242 @@
+body{
+  background-color: #000000;
+}
+#celek{
+  width: 999px; 
+  position: relative;
+  margin-left: auto; 
+  margin-right: auto;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  background-color: #000000;
+}
+#logo{
+  position: relative;
+  left: 60px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000000;
+  background-color: #000000;
+  margin: 10px;
+  padding-left: 45px;
+  padding-right: 45px; 
+}
+#bannerslogan{
+  position: relative;
+  left: 284px;
+  top: -122px;
+  width: 630px;
+  height: 120x;
+  border: 2px solid #000000;
+  margin: 10px;
+  background-color: #000000;  
+}
+.banner{
+  width: 620px;
+  height: 60px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: #000000;
+}
+.motto{
+  margin-bottom: 6px;
+  margin-top: 6px;
+  margin-left: 10px; 
+  margin-right: 10px;
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+#obsah{
+  position: absolute;
+  top: 170px;
+  left: 66px;
+  overflow: auto;
+  width: 845px;
+  height: 418px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+}
+
+.bannerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+}
+h1 {
+  color: gold;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  
+}
+.silver{
+  color: silver;
+}
+.banner a:link, .banner a:visited, .banner a:active, .banner a:hover{
+  color: #000000;
+}
+#menu a:link, #menu a:visited, #menu a:active, #menu a:hover{
+  color: black;
+}
+#menu{
+  
+}
+
+#menu0{
+  position: absolute;
+  top: 130px;
+  left: 66px;
+  width: 100px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+#menu1{
+  position: absolute;
+  top: 130px;
+  left: 170px;
+  width: 200px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#menu2{
+  position: absolute;
+  top: 130px;
+  left: 374px;
+  width: 230px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#menu3{
+  position: absolute;
+  top: 130px;
+  left: 608px;
+  width: 170px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#menu4{
+  position: absolute;
+  top: 130px;
+  left: 782px;
+  width: 150px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#listavlevo{
+  top: 0px;
+  width: 66px;
+  float: left;
+}
+#listavpravo{
+  top: 0x;
+  width: 66px;
+  float: right;
+}
+#horineon{
+  position: absolute;
+  top: 610px;
+  left: 66px;
+  
+}
+.formtab{
+  border: 4px solid silver;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: silver;
+  font-weight: bold;
+  width: 636px;
+  margin: 0px auto;
+}
+
+.textovej{
+  width: 200px;
+  margin-top: 5px;
+  border: border: 1px solid silver;
+  background-color: #000000;
+  color: #23d3ff;
+  font-weight: normal;
+}
+.right{
+  padding-left: 60px;
+}
+textarea{
+  width: 568px;
+  height: 60px;
+  border: border: 1px solid silver;
+  background-color: #000000;
+  color: #23d3ff;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#sub{
+  float: right;
+  border: border: 1px solid silver;
+  background-color: #000000;
+  color: silver;
+  font-weight: bold;
+  margin-top: 4px;
+}
+#linkk{
+  padding-left: 60px;
+}
+
+#linkk a:link, #linkk a:visited, #linkk a:active, #linkk a:hover{
+  color: #23d3ff;
+  text-decoration: none;
+}
+#doms{
+  display: none;
+}
+#doms.formtab{
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  height: 200px;
+  background-color: black;
+}
+.domm{
+  font-weight: bold;
+  margin-left: 20px;
+}
+.texty{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+#mb{
+  text-align: center;
+  width: 867px;
+}
+.bannn{
+  margin: 10px;
+}
+#mb a:link, #mb a:visited, #mb a:active, #mb a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+#foot{
+  position: relative;
+  top: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}

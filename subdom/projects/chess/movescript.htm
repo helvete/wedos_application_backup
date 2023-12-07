@@ -1,0 +1,46 @@
+<script>
+var figurka = "";
+var y = 0;
+var x = 0;
+var set = "nonset";
+
+function moveset(figura, ya, xa) {
+figurka = figura;
+y = ya;
+x = xa;
+set = "set";
+
+var divik = document.getElementById("highlight");
+var t = 1 + 50 * y;
+divik.style.top =  t + "px";
+var l = 250 + 50 * x;
+divik.style.left = l + "px";
+divik.style.display = "block";
+
+zpozice(figurka, y, x);
+}
+
+function executemove(ya, xa, ocupied) {
+ if (set == "set") {
+  var divik = document.getElementById("highlight2");
+  var t = 1 + 50 * ya;
+  divik.style.top =  t + "px";
+  var l = 250 + 50 * xa;
+  divik.style.left = l + "px";
+  divik.style.display = "block";
+
+napozici(ocupied, xa, ya);
+ }
+}
+
+
+function refresh() {
+
+document.oneform.submit();
+}
+
+
+
+setInterval(function(){refresh()}, 60000);
+
+</script>

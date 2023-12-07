@@ -1,0 +1,316 @@
+/* CSS Document */
+body 
+{  background-color: #808050;
+   /* background-image: url(fabia.jpg); 
+                   defaultne je repeat, potom lze: repeat-y, repeat-x, position lze urcit uplne kamkoliv, nejen tyhle nepresne 
+   background-repeat: no-repeat;
+   background-position: center center;
+                   pozadi zustava stat, kdyz posunujeme strankou 
+   background-attachment: fixed;  */
+   font-family: sans-serif;
+   font-size:0.8em;
+   color: black;
+   text-align: justify;
+   
+   /* cursor : auto, crosshair, default, pointer, move, wait, help, url, text, n-resize.. */
+   /*cursor: help;*/
+}
+/* vycentrovani celeho webu a zarovnani na stred, kdyby jsme pouzili text-align, vycentrujeme pouze obsah elementu */
+div.unas {
+width: 800px;
+margin: 0px auto;
+}
+
+h2.red 
+{ text-align: center;
+  background-color: navy;
+  color: red;  
+  font-family: arial,times;
+  font-size:2em;
+}
+
+
+
+h2.white 
+{ text-align: center;
+  background-color: #3333aa;
+  color: white;  
+  font-family: arial,times;
+  font-size:1.9em;
+}
+
+/* trida je neco. tecka nebo i bez neceho, pouzitelne pro cokoliv o vicekrat */
+h1.green
+{ text-align: center;
+  background-color: #3333aa;
+  color: green;  
+  font-family: arial,times;
+  font-size:2.4em;
+  
+}
+/* identifikator, pouzit radeji pouze jednou, nejaka dynamicnost stranek pomoci jvs */
+h3#identifikator {
+  color: #808080;
+  background-color: rgb(0,0,255);
+
+
+}
+/* s dvojteckou pseudoelementy a pseudotridy */
+a:link {
+      color: blue;
+       text-decoration: none;
+}
+
+a:hover {
+      color: lightblue;
+      text-decoration: underline;
+}
+
+a:visited {
+      color: purple;
+       text-decoration: none;
+}
+
+a:active {
+      color: #f00;
+       text-decoration: none;
+}  
+/* u firstline zda se nefunguje odsazeni, takze ho prilupneme do celeho P */
+p:first-line {
+  text-indent: 2em;
+  color: darkblue;
+}
+/* odsazeni je text-indent, jen prvni znak, klasik. potom zarovnani do bloku, docela nutnost pro odstavce */
+p {
+  text-align: justify;
+  text-indent: 2em;
+  color: #0000ff;
+}
+
+p:first-letter {
+  font-size: 300%;
+  color: #ffffff;
+  }
+
+/* vicenasobna deklarace */
+
+h1, h2, h3, h4, h5, h6 {
+text-align: center;
+text-shadow:#007fff 5px 5px 5px;
+}
+/* kontextove selektory 
+vsimneme si pouziti mezer, kdy urcujeme za kolika OL prvky je nami definovany li prvek
+*/
+
+ol li {list-style: upper-roman}
+ol ol li {list-style: upper-alpha}
+  
+ul li {
+list-style-type: square;
+list-style-image: url(star.gif);
+list-style-position: outside;
+/* typ je dedicny 
+hodnoty: disc, circle, square, decimal, lower-roman, upper-roman, lower-alpha, upper-alpha
+*/
+
+
+}
+
+
+/* pozadi prvku p*/
+/*p.bgimg {background-image: url(hu_jintao_03.jpg);}*/
+
+
+span#kursiva {
+font-style: italic;
+
+}
+
+span#kapitalky {
+font-variant: small-caps;
+
+}
+
+span#bold {
+font-weight: bold;
+/* normal, bold, bolder, lighter, "900" */
+}
+
+/* vyuzitelne predevsim pro nadpisy */
+div#mezery {
+word-spacing: 20px;
+
+
+}
+/* opet nejvyuzitelnejsi u nadpisu */
+div#mezery2 {
+letter-spacing: 5px;
+
+
+}
+/* underline je spatne, kvuli zamene s odkazem
+overline - cara nad textem
+line-through - preskrtnute
+blink - blikajici
+none - default
+
+ */
+span#dekorace {
+text-decoration: blink overline underline;
+
+}
+
+/* vertical-align vlastnost funguje pouze pro radkove elementy */
+
+span#index {
+vertical-align: super;
+font-size:0.4em;
+}
+
+span#index2 {
+vertical-align: sub;
+font-size:0.4em;
+}
+
+/* top, middle (musi mit oba obrazky), dalsi pozdeji pry 
+!!!!!!!!!!!!!!!pro obrazky je dobre nastavit display: block; "malokdy potrebujeme zobrazit neco vedle obrazku"
+*/
+img.poziceimg {
+vertical-align: middle;
+border: solid 1px yellow;
+
+}
+
+/*img.poziceimg1 {
+display: block;
+takhle bychom zmenili prvek z radkoveho na blokovy..
+}
+*/
+
+/* transformace velkych na mala a malych na velka pismena, podle atributu 
+none, capitalize, uppercase, lowercase
+*/
+div#mala {
+text-transform: lowercase;
+
+}
+
+/* text-align se da aplikovat na radkove elementy, ktere jsou vnoreny do elementu blokovych 
+justify - do bloku, vyuzito v body a p
+
+treba s tim obrazkem to nejde pokud ho nevlozime do blokoveho elementu, a v tom bloku lupnem zarovanani na stred.. voila
+*/
+.zarovnani {
+text-align: center;
+
+}
+
+img.sirkavyska {
+width: 433px; 
+height: 414px;
+
+
+}
+
+/* tabulka
+margin: jediny zpusob pro univerzalni zarovnani libovolneho elementu na strance
+prvni hodnota je odsazeni shora a zespoda, druha hodnota je odsazeni zleva a prava
+auto -> nastavi stejne okraje vlevo i vpravo
+*/ 
+
+/* margin: existuji vlastnosti left, top, botom, right
+nasledovne: margin-top: 20px;
+nebo lze pouzit 2 hodnoty, tri a ctyri hodnoty
+u 4 je odsazeni zleva, zprava, zespodu, zleva
+
+ */
+
+table.tabulka {
+border: solid 2px black;
+text-align: center;
+margin: 30px auto;
+width: 400px;
+
+
+}
+td {
+border: solid 1px black;
+text-align: right;
+}
+
+
+/* lze uvest normal, obyc cislo jako nasobic, procenta, ci presny pixel udaj */
+div#radkovani {
+line-height: 2;
+/* text shadow nefacha v IE */
+text-shadow:#007fff 5px 5px 5px;
+/* border: hrozne clenity prikaz:
+muze obsahovat jedno az tri slova.. samozrejme lze pouzit jen pro leve prave blabla: border-left: 2px;
+border-left-color: bezucelne, proc to neudelat na-jednou
+stejny problem u width
+potom je border-left-style: a zase proc ne najednou
+!! border: nejlepci pro pouziti: prvni slovo muze byt: none, dotted, dashed, solid, double, groove, rigde, inset, outset
+dotted je moc fajn!
+double nefunguje s jednopixelovou tloustkou!
+groove je hezkej (nepouzivat cernou a chce to alespon 10px)
+
+ */
+border: dashed 1px blue;
+/* mame moznost nastavit samostatne horni pravy levy spodni: padding-top: napr.
+ale muzeme nastavit i komplet pro vse s pouhym: padding: 2px;
+ */
+padding: 20px;
+margin: 30px 30px;
+}
+
+div#obtekani {
+/* zarovnane do bloku uz od body ;) */
+}
+
+img.float {
+float: right;
+margin-left: 15px;
+margin-top: 15px; 
+/* obtekani obrazku textem, zarovname obrazek vpravo */
+
+}
+
+/* timhle vytvorime paradni inicialu, mozna az na odsazeni zprava, kde mame 5px to bude asi potreba pokazde vyladit */
+span.iniciala {
+font-size: 4em;
+float: left;
+margin: 3px 5px 0px 0px;
+line-height: 83%;
+
+}
+
+span.odrazka {
+display: list-item;
+margin: 0px 0px 0px 30px;
+
+}
+
+
+span.mezery {
+/* white-space urcuje zpusob prace s mezerami, tabelatory, entery apod.
+hodnoty: normal, pre, nowrap, normal.
+ */
+white-space: pre;
+font-family: courier, monospace;
+}
+/* funguje pouze v IE */
+h1, p {cursor: url(banana.ani) }
+a {cursor: url(banana.ani) }
+
+@font-face {font-family: algiers; src: url(algiers.ttf)}
+ div.font {font-family: algiers} 
+
+@font-face {font-family: algerian; src: url(alger.otf)}
+ div.font2 {font-family: algerian}
+
+
+
+
+
+
+       

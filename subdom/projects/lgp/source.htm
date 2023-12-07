@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+   <head>
+
+	<meta http-equiv="content-type" content="html; charset=windows-1250" />
+	<meta name="author" content="codeall: Martin Peka" />
+	<meta name="copyright" content="Martin Peka" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="czech" />
+	<meta name="country" content="cz" />
+	<meta http-equiv="content-language" content="cs" />
+	<meta http-equiv="cache-control" content="public" />
+	<meta http-equiv="pragma" content="public" />
+
+ 	<title>Zápočtový projekt - poradce pro výběr počítače</title>
+
+   </head>
+
+   <body bgcolor="#ffffff" marginwidth="10" text="#000000" link="#0000ff" vlink="#000099" alink="#00ffff"> 
+<h2>Zdrojový kód</h2>   
+<a href="source.zip" title="zdrojový kód ke stažení">Celý zdrojový kód i s výsledkovými soubory ke stažení </a>
+      <pre>
+
+%Hlavni modul programu, ktery vse spousti a vola
+
+parametry :-  prenosny(L1), cpuVykon(L1, L2), gpuVykon(L2,L3), 
+              rozliseni(L3, L4), design(L4, L), vypis(L), 
+              uvar(S,L), servis, write(S), nl,  name(S,L8), 
+              name('.dat',L9), conc(L8,L9,L0), name(S0,L0), 
+              servis, write(S0), nl, nl, ideal, hvezdy,		
+              answer(S0), nl, 
+              write('Prejete si nove zadani parametru? '), 
+              odpoved, read(V), hvezdy, nl, znovu(V).
+
+%Blok textovych vypisu, kvuli opakovani predepsany
+
+odpoved :- write('(odpovezte ano. nebo ne.)'). 
+
+servis :- write('*servis data*: ').
+
+hvezdy :- write('**** **** **** **** **** **** **** **** **** **** 
+          **** ****'), nl.
+
+vytvarnoStart :- write('** Poradce pro vyber pocitace podle 
+          zakladnich parametru **'), nl.
+
+ideal :- write('Idealni stroj pro Vas muze byt napriklad: '), nl. 
+
+
+%Blok zadavani parametru pocitace
+
+prenosny(Lnew) 		:- 	write('Melo by se jednat o laptop? '), 
+                  odpoved, read(W), pridejData(10000, W, [], Lnew),
+                  nl. 
+
+cpuVykon(Lold, Lnew)	:- 	write('Preferujete CPU vykon? 
+                  (vysoky vykon vs. spotreba) ' ), odpoved, read(W), 
+                   pridejData(1000, W, Lold, Lnew), nl. 
+		
+gpuVykon(Lold, Lnew)	:- 	write('Potrebujete vysoky GPU vykon? 
+                  (hry, rendering) '), odpoved, read(W), 
+                  pridejData(100, W, Lold, Lnew), nl. 
+		
+rozliseni(Lold, Lnew) 	:-  	write('Je pro Vas prioritou vysoke 
+                  rozliseni displeje? '), odpoved, read(W), 
+                  pridejData(10, W, Lold, Lnew), nl. 
+
+design(Lold, Lnew)	:-	write('Davate prednost modernimu 
+                  designu? '), odpoved, read(W), 
+                  pridejData(1, W, Lold, Lnew), nl. 
+
+%Predikat, ktery plni seznam daty, pokud je odpoved pozitivni
+
+pridejData(Q,W,Lt,L) :- W == ano,
+			pridej(Q, Lt, L), !.
+pridejData(Q,W,Lt,L) :- pridej(0, Lt, L).
+
+%Obecny predikat pro pridani prvku do seznamu
+
+pridej(X, L, [X|L]). 
+
+%Kontrolni predikat pro vypis seznamu
+
+vypis([]).
+vypis([H|T]) :- servis, write(H), nl, vypis(T).
+
+%Z prvku seznamu naplnime promennou, 
+%ktera jednoznacne urcuje vybrany stroj
+
+uvar(0,[]). 
+uvar(M,[H|T]) :- uvar(M1,T), M is M1 + H.
+
+%Obecny predikat pro spojeni seznamu, pouzit 
+%pro vytvoreni retezce jmena souboru z integerove promenne
+
+conc([],L,L). 
+conc([X|L1],L2,[X|L3]) :- conc(L1,L2,L3).
+
+%Odpovedni predikat, ktery nalistuje adekvatni 
+%soubor a vypise jeho obsah do konzole
+
+answer(F) :- see(F), nl, copy(65535,_) ~> FileString, 
+              seen, write(FileString), nl.
+
+%Podminkovy predikat, ktery ovlivnuje cykleni programu, 
+%podle uzivatelovy odpovedi
+
+znovu(V) :- 	V == ano,
+              parametry, !.
+znovu(V) :- 	fail.
+
+%Spousteci predikat
+
+run :- nl, hvezdy, vytvarnoStart, hvezdy, nl, parametry.  
+
+
+
+      </pre>
+
+  
+   </body>
+</html>

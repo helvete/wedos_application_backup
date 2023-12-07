@@ -1,0 +1,42 @@
+/* CSS Document */
+
+#loged {
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  background-color: #c0c0c0;
+  padding: 10px;
+}
+
+form {
+  background-color: #a2a2e0;
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+
+
+}
+
+#rule {
+  background-color: #a2e0a2;
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+#result {
+  background-color: #e0e0a2;
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+#endof {
+  background-color: #e0a2a2;
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+
+}

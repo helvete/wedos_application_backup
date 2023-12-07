@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Fri, 10 Oct 2014 00:23:19 +0200</pubDate><title><![CDATA[SVJ-PENB.CZ]]></title><url><![CDATA[index]]></url><meta><![CDATA[penb, svj-penb, energeticky stitek, levny energeticky stitek, budovy, dum, eko]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Úvod]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;!--p class=&quot;introduction&quot;&gt;Dobrý den, děkujeme za Váš zájem o vypracování PENB právě u naší firmy.&lt;br /&gt;Pro poptání nabídky nebo poskytnutí dalších informací prosím vyplňte formulář níže.&lt;br /&gt;Náš specialista Vás bude co nejdříve, max. do 2 pracovních dní kontaktovat.&lt;/p--&gt;
+
+&lt;h3&gt;Společentví vlastníků jednotek – Průkaz energetické náročnosti budov&lt;/h3&gt;
+&lt;p&gt;
+Průkaz PENB musí být vyhotoven:
+&lt;/p&gt;
+&lt;p&gt;
+Dle  novely zákona č. 406/2000 Sb. ve znění zákona č. 318/2012 Sb.:
+&lt;/p&gt;
+&lt;p&gt;
+Pro vlastníka/y nebo SVJ užívaného bytového domu nebo adm. budovy s 
+celkovou energeticky vztažnou plochou  (Půdorys &amp;times; Podlaží budovy) větší než:
+&lt;/p&gt;
+&lt;ul class=&quot;airy&quot;&gt;
+&lt;li class=&quot;red&quot;&gt;1500 m&amp;sup2; do 1.1.2015 (cca 6 a více pater) &lt;/li&gt;
+&lt;li&gt;1000 m&amp;sup2; do 1.1.2017 (cca 4 a více pater)&lt;/li&gt;
+&lt;li&gt;zbytek budov do 1.1.2019.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Při prodeji celé, nebo ucelené části budovy je povinnost vyhotovit
+&lt;/p&gt;
+&lt;p&gt;
+Průkaz energetické náročnosti budovy od 1.1.2013.
+&lt;/p&gt;
+&lt;p class=&quot;strong&quot;&gt;Proč právě u nás?&lt;/p&gt;
+&lt;ol class=&quot;airy&quot;&gt;
+&lt;li&gt;Odbornost a kvalita: Váš průkaz energetické náročnosti budov (PENB) budou zpracovávat
+speciálně vyškolení odborníci naší společnosti. &lt;/li&gt;
+&lt;li&gt;Nejnižší cena na trhu: Díky našim zkušenostem a dlouholeté praxi Vám zajistíme energetické
+štítky budov za nejlepší možné ceny. &lt;/li&gt;
+&lt;li&gt;Zákazník na prvním místě: Naše firma se řídí pravidlem &quot;náš zákazník, náš pán&quot; a také proto
+poskytujeme  své služby po celé ČR.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;strong&quot;&gt;Naše nabídka speciálně pro bytové domy:&lt;/p&gt;
+&lt;div class=&quot;offer-image&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;contact&quot;&gt;
+&lt;h4&gt;Objednejte  ONLINE&lt;/h4&gt;
+&lt;div class=&quot;sub&quot;&gt;
+&lt;div&gt;Pro objednávku vyplňte formulář a odešlete.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;other-contact-ways&quot;&gt;
+&lt;h5&gt;Další kontakty:&lt;/h5&gt;
+&lt;ul class=&quot;no-bullet&quot;&gt;
+&lt;li&gt;Telefon: 	+420 727 809 070&lt;/li&gt;&lt;br/&gt;
+&lt;li&gt;Email: 	kofron@levnyenergetickystitek.cz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;contact-form&quot;&gt;
+(% contact %)
+&lt;/div&gt;
+&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
